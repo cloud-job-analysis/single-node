@@ -5,10 +5,11 @@ Master Determines how many resources to offer to each framework.
 
 
 In here, 
-the agents will inform the mesos master of the resources it contains
-The Mesos Master will send a resource offer to framework 1.
-Framework will decide which resources to utilize using tasks
-Master sends tasks to agents
+
+1.) The agents will inform the mesos master of the resources it contains
+2.) The Mesos Master will send a resource offer to framework 1.
+3.) Framework will decide which resources to utilize using tasks
+4.) Master sends tasks to agents
 
 Since we are working with individual jobs instead of frameworks, steps 2 + 3 become unnecessary.
 Instead, the Mesos Master itself should act as the framework scheduler for the individual jobs, denying resource offers that aren’t relevant. 
