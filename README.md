@@ -4,7 +4,7 @@ The master enables fine-grained sharing of resources (CPU, RAM, …) across fram
 Master Determines how many resources to offer to each framework.
 
 
-In here, 
+In here:   
 1.) The agents will inform the mesos master of the resources it contains.  
 2.) The Mesos Master will send a resource offer to framework 1.  
 3.) Framework will decide which resources to utilize using tasks  
