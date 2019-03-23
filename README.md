@@ -3,6 +3,7 @@ Mesos Master Node communicates with frameworks + agents (client nodes).
 The master enables fine-grained sharing of resources (CPU, RAM, …) across frameworks by making them resource offers. Each resource offer contains a list of <agent ID, resource1: amount1, resource2: amount2, ...>   
 Master Determines how many resources to offer to each framework.
 
+![alt text](http://mesos.apache.org/assets/img/documentation/architecture-example.jpg)
 
 In here:   
 1.) The agents will inform the mesos master of the resources it contains.  
