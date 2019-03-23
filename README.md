@@ -20,12 +20,12 @@ This would be where we add in our code for scheduling algorithm (DRF, etc..)
 Job (Previously Framework) scheduler -> which resource offers fit the job’s contraints?   
 Not sure on how to model this at this point, master would have to decide, is this even something we should model? Should we just say that if a resource offer exists that matches the resources needed for a job we just allocate?  
 
-Assumptions when coding:   
+## Assumptions when coding:   
 Jobs are threads  
 Resources are modeled using semaphores  
 How long a resource needs to be grabbed should be from the job perspective, not master.  
 
-Other Design  
+## Other Design  
 Have a master thread and multiple slave (job) threads. Communicate using message passing (like RPC) or with queues.   
 Connect job threads to master thread-> have each job thread’s requests enter a waiting queue.  
 Infinite while loop for master thread. Constantly accepting new job threads.   
