@@ -24,7 +24,7 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 		memory[node_number][1] -= 1
 
 def job(request_q, user, cpus, memory):
-	request_q[user].put([cpus, memory])
+	request_q[user].append([cpus, memory])
 
 
 def master(request_dict):
@@ -60,7 +60,7 @@ def master(request_dict):
 #print(create_resource_offer(0))
 
 #request_queue = Queue()
-request_dict = {"user1":Queue() , "user2":Queue()}
+request_dict = {"user1":[] , "user2":[]}
 job1 = threading.Thread(target = job, args=(request_dict, "user1", 1, 1))
 job2 = threading.Thread(target = job, args=(request_dict, "user2", 2, 2))
 job3 = threading.Thread(target = job, args=(request_dict, "user1", 3, 4))
