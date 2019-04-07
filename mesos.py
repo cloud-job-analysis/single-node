@@ -3,7 +3,7 @@ import random
 import threading
 import time
 import numpy as np
-from Queue import Queue
+#from Queue import Queue
 
 #Four Nodes in DataCenter. Count of Semaphore corresponds with amount of resources available in that node
 num_of_nodes = 4
@@ -58,7 +58,6 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 def job_func(request_dict, user, cpus, memory):
 	request_dict[user].append([cpus, memory])
 
-
 def master_func(request_dict):
 	while(1):
 		#job_request = request_q.get()
@@ -80,14 +79,15 @@ def master_func(request_dict):
 		#print([success, resource_caps, resource_util, dominant_shares, utils])
 		#This is where we add our allocation/scheduling algorithm...
 		#For now, just loop through resource_offers seeing which node can match job requirements
-		print(success)
+		#print(success)
 		if success:
 			for x in range(num_of_nodes):
 				if resource_offers[x][1] >= resource_util[0] and resource_offers[x][2] >= resource_util[1]:
 					print("before is: " + str(create_resource_offer(x)))
 					acquire_resource_offer(resource_offers[x], int(resource_util[0]), int(resource_util[1]))
 					request_dict[i] = request_dict[i][1:]
-					print("after is: " + str(create_resource_offer(x)))
+					print("job request is " + str(resource_util))
+					print("after is: " + str(create_resource_offer(x)) + "\n")
 					break
 		
 
@@ -96,16 +96,22 @@ def main():
 	job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1))
 	job2 = threading.Thread(target = job_func, args=(request_dict, 1, 2, 2))
 	job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4))
-
+	job4 = threading.Thread(target = job_func, args=(request_dict, 1, 0, 2))
+	job5 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 3))
 	master = threading.Thread(target = master_func, args = (request_dict,))
-	#master.daemon = True
+
+
 	job1.daemon = True
 	job2.daemon = True
 	job3.daemon = True
+	job4.daemon = True
+	job5.daemon = True
 	master.start()
 	job1.start()
 	job2.start()
 	job3.start()
+	job4.start()
+	job5.start()
 
 if __name__ == '__main__':
 	main()
