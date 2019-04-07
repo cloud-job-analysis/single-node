@@ -10,13 +10,14 @@ num_of_nodes = 4
 cpus = [[threading.Semaphore(10),10], [threading.Semaphore(5),5], [threading.Semaphore(12),12], [threading.Semaphore(2),2 ] ] 
 memory = [[threading.Semaphore(15),15], [threading.Semaphore(10),10], [threading.Semaphore(20),20], [threading.Semaphore(40),40] ]
 resource_caps = [29, 85]
+node_to_release = {}
 
 def getUserDemand(userID, request_dict):
 	#print(userID)
 	#print(request_dict)
 	if not request_dict[userID]:
 		return None
-	return request_dict[userID][0]
+	return request_dict[userID][0][1:2]
 
 def dominantResourceFairness(resource_caps, resource_util, dominant_shares, utils, request_dict):
 #do argument sort to order dom shares ascending
@@ -55,8 +56,34 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 		memory[node_number][0].acquire()
 		memory[node_number][1] -= 1
 
-def job_func(request_dict, user, cpus, memory):
-	request_dict[user].append([cpus, memory])
+#Acquiring resources to use in job.
+def release_resource_offer(list, cpus_to_grab, memory_to_grab):
+	node_number = list[0]
+	for x in range(cpus_to_grab):
+		cpus[node_number][0].release()
+		cpus[node_number][1] += 1
+	for x in range(memory_to_grab):
+		memory[node_number][0].release()
+		memory[node_number][1] += 1
+
+def check_if_exists(request_dict, user, jobID):
+	for x in request_dict[user]:
+		if x:
+			if x[2] == jobID:
+				return True
+	
+	return False 
+
+def job_func(request_dict, user, cpus, memory, jobID):
+	request_dict[user].append([cpus, memory, jobID])
+	while(1):
+		check = check_if_exists(request_dict, user, jobID)
+		if not check:
+			node = node_to_release[jobID]
+			release_resource_offer(node, cpus, memory)
+			node_here = node[0]
+			print("after job"  + str(jobID) + "is done is: " + str(create_resource_offer(node_here)) + "\n")
+			break
 
 def master_func(request_dict):
 	while(1):
@@ -85,6 +112,7 @@ def master_func(request_dict):
 				if resource_offers[x][1] >= resource_util[0] and resource_offers[x][2] >= resource_util[1]:
 					print("before is: " + str(create_resource_offer(x)))
 					acquire_resource_offer(resource_offers[x], int(resource_util[0]), int(resource_util[1]))
+					node_to_release[request_dict[i][0][2]] = resource_offers[x]
 					request_dict[i] = request_dict[i][1:]
 					print("job request is " + str(resource_util))
 					print("after is: " + str(create_resource_offer(x)) + "\n")
@@ -93,11 +121,11 @@ def master_func(request_dict):
 
 def main():
 	request_dict = {0:[] , 1:[]}
-	job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1))
-	job2 = threading.Thread(target = job_func, args=(request_dict, 1, 2, 2))
-	job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4))
-	job4 = threading.Thread(target = job_func, args=(request_dict, 1, 0, 2))
-	job5 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 3))
+	job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
+	job2 = threading.Thread(target = job_func, args=(request_dict, 1, 2, 2, 2))
+	job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
+	job4 = threading.Thread(target = job_func, args=(request_dict, 1, 0, 2, 4))
+	job5 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 3, 5))
 	master = threading.Thread(target = master_func, args = (request_dict,))
 
 
