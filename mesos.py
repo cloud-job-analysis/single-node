@@ -12,8 +12,8 @@ memory = [[threading.Semaphore(15),15], [threading.Semaphore(10),10], [threading
 resource_caps = [29, 85]
 
 def getUserDemand(userID, request_dict):
-	print(userID)
-	print(request_dict)
+	#print(userID)
+	#print(request_dict)
 	if not request_dict[userID]:
 		return None
 	return request_dict[userID][0]
@@ -21,7 +21,7 @@ def getUserDemand(userID, request_dict):
 def dominantResourceFairness(resource_caps, resource_util, dominant_shares, utils, request_dict):
 #do argument sort to order dom shares ascending
 	sorted_dom_shares = np.argsort(dominant_shares)
-	print(sorted_dom_shares)
+	#print(sorted_dom_shares)
 	#check each user to see if we can service their next request
 	for i in sorted_dom_shares:
 		userDemand = getUserDemand(i, request_dict)
@@ -36,7 +36,7 @@ def dominantResourceFairness(resource_caps, resource_util, dominant_shares, util
 			resource_util += userDemand
 			utils[i] += userDemand
 			dominant_shares[i] = np.max(utils[i] / resource_caps)
-			print(i, resource_util, utils, dominant_shares)
+			#print(i, resource_util, utils, dominant_shares)
 			return True, resource_caps, resource_util, dominant_shares, utils, userDemand, i #return success and updated params
     #if no request can be serviced currently, return failure and the old parameters
 	return False, resource_caps, resource_util, dominant_shares, utils, None, None
@@ -65,22 +65,17 @@ def master_func(request_dict):
 		#print("job request: " + str(job_request))
 
 		#Get list of available resources per node.
-		print("poop0")
 		resource_offers = []
 		for x in range(num_of_nodes):
 			resource_offers.append(create_resource_offer(x))
-		print("poop0.5")
 
 		numUsers = 2
-		print(numUsers)
 		resource_utilizations = np.zeros(2)
 		userUtilization = np.zeros((numUsers, 2))
 		userDomShares = np.zeros(numUsers)
 		resource_caps = [29, 85]
-		print("poop1")
-		print(request_dict)
+		#print(request_dict)
 		[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
-		print("poop2")
 		#print([success, resource_caps, resource_util, dominant_shares, utils])
 		#print([success, resource_caps, resource_util, dominant_shares, utils])
 		#This is where we add our allocation/scheduling algorithm...
@@ -108,7 +103,6 @@ def main():
 	job2.daemon = True
 	job3.daemon = True
 	master.start()
-	print("job is starting")
 	job1.start()
 	job2.start()
 	job3.start()
