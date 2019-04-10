@@ -74,8 +74,10 @@ def master_func(request_dict):
 		s.settimeout(1)
 		try:
 			data = s.recv(1024)
+			print (len(data))
+			print (pickle.loads(data))
 			if len(data) > 0:
-				data = s.recv(1024)
+				# data = s.recv(1024)
 				data = pickle.loads(data)
 				#CHECK TYPE OF DATA, AGENT UPDATE OR AGENT RESOURCE OFFERS
 				agent_ID = data['agent_id']
@@ -88,6 +90,7 @@ def master_func(request_dict):
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
 		except Exception as e:
+			print (e)
 			pass
 
 		resource_offers = []
