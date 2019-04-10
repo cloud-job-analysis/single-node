@@ -68,14 +68,27 @@ PORT = 8000
 def master_func(request_dict):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
+	#s.setblocking(0)	
 	while(1):
 		#Get list of available resources per node.
-		data = s.recv(1024)
-		#print(pickle.loads(data))
-		data = pickle.loads(data)
-		agent_ID = data['agent_id']
-		agent_resources[agent_ID] = data
-		print("receive " + str(agent_resources))
+		s.settimeout(1)
+		try:
+			data = s.recv(1024)
+			if len(data) > 0:
+				data = s.recv(1024)
+				data = pickle.loads(data)
+				#CHECK TYPE OF DATA, AGENT UPDATE OR AGENT RESOURCE OFFERS
+				agent_ID = data['agent_id']
+				if agent_ID in agent_resources:
+						#UPDATE
+					agent_resources[agent_ID]["cpu"] += data["cpu"]
+					agent_resources[agent_ID]["ram"] += data["ram"]
+					print("receive agent stuff")
+				else:
+					agent_resources[agent_ID] = data
+					print("receive " + str(agent_resources))
+		except Exception as e:
+			pass
 
 		resource_offers = []
 		#for x in range(num_of_nodes):
@@ -109,6 +122,8 @@ def master_func(request_dict):
 					#ack = -1
 					#while ack != request_dict[i][0][2]:
 					s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1]} ))
+					agent_resources[k]["cpu"] -= resource_util[0]
+					agent_resources[k]["ram"] -= resource_util[1]
 					#	ack = s.recv(1024)
 					#	ack = pickle.loads(ack)
 					#	print(ack)
