@@ -59,10 +59,10 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 		memory[node_number][0].acquire()
 		memory[node_number][1] -= 1
 
-def job_func(request_dict, user, cpus, memory, jobID):
-	request_dict[user].append([cpus, memory, jobID])
+def job_func(request_dict, user, cpus, memory, jobID, command, type):
+	request_dict[user].append([cpus, memory, jobID, command, type])
 
-HOST = '127.0.0.1'
+HOST = '10.194.80.70'
 PORT = 8000
 
 def master_func(request_dict):
@@ -126,10 +126,10 @@ def master_func(request_dict):
 					#while ack != request_dict[i][0][2]:
 					# Remove
 					if request_dict[i][0][2] == 1:
-						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": "python /home/avais/Desktop/cloud/frameworks-flask/app.py", "type": "flask_server"}))
+						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
 					# Remove
 					else:
-						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": "python test.py", "type": "flask_job"}))
+						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
 					agent_resources[k]["cpu"] -= resource_util[0]
 					agent_resources[k]["ram"] -= resource_util[1]
 					#	ack = s.recv(1024)
@@ -152,25 +152,33 @@ def master_func(request_dict):
 
 def main():
 	request_dict = {0:[] , 1:[], 2:[], 3:[], 4:[]}
-	job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
-	job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
-	job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
-	job4 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 2, 4))
-	job5 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 3, 5))
-	master = threading.Thread(target = master_func, args = (request_dict,))
+	#job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
+	#job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
+	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
+	#job4 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 2, 4))
+	#job5 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 3, 5))
+	threading.Thread(target = master_func, args = (request_dict,), daemon=True).start()
 
 
-	job1.daemon = True
-	job2.daemon = True
-	job3.daemon = True
-	job4.daemon = True
-	job5.daemon = True
-	master.start()
-	job1.start()
-	job2.start()
-	job3.start()
-	job4.start()
-	job5.start()
+	# job1.daemon = True
+	# job2.daemon = True
+	# job3.daemon = True
+	# job4.daemon = True
+	# job5.daemon = True
+	# master.start()
+	# job1.start()
+	# job2.start()
+	# job3.start()
+	# job4.start()
+	# job5.start()
+	job_count = 0
+	f = open("file_name.json", "r")
+	data = f.read()
+	data = data.split("\n")
+	for job in data:
+		job = json.loads(job)
+		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job_count, job["command"], job["type"]), daemon=True).start()
+		job_count += 1
 
 if __name__ == '__main__':
 	main()
