@@ -62,13 +62,13 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 def job_func(request_dict, user, cpus, memory, jobID):
 	request_dict[user].append([cpus, memory, jobID])
 
-HOST = '10.194.31.36'
+HOST = '127.0.0.1'
 PORT = 8000
 
 def master_func(request_dict):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
-	#s.setblocking(0)	
+	#s.setblocking(0)
 	while(1):
 		#Get list of available resources per node.
 		s.settimeout(1)
@@ -124,7 +124,12 @@ def master_func(request_dict):
 					print("send " + str(request_dict[i][0][2]))
 					#ack = -1
 					#while ack != request_dict[i][0][2]:
-					s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1]} ))
+					# Remove
+					if request_dict[i][0][2] == 1:
+						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": "python /home/avais/Desktop/cloud/frameworks-flask/app.py", "type": "flask_server"}))
+					# Remove
+					else:
+						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": "python test.py", "type": "flask_job"}))
 					agent_resources[k]["cpu"] -= resource_util[0]
 					agent_resources[k]["ram"] -= resource_util[1]
 					#	ack = s.recv(1024)
