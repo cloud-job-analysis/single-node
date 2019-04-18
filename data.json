@@ -1,0 +1,4 @@
+{'ram': 3, 'id': 5, 'type': 'flask_job', 'command': 'python test.py', 'cpu': 1}
+{'ram': 2, 'id': 4, 'type': 'flask_job', 'command': 'python test.py', 'cpu': 2}
+{'ram': 3, 'id': 3, 'type': 'flask_job', 'command': 'python test.py', 'cpu': 3}
+{'ram': 1, 'id': 2, 'type': 'flask_job', 'command': 'python test.py', 'cpu': 4}
