@@ -5,6 +5,7 @@ import time
 import numpy as np
 import socket
 import pickle
+import json
 #from Queue import Queue
 
 
@@ -120,18 +121,18 @@ def master_func(request_dict):
 		print(success)
 		if success:
 			for k, v in agent_resources.items():
-				if agent_resources[k]["cpu"] >= resource_util[0] and agent_resources[k]["ram"] >= resource_util[1]:
-					print("send " + str(request_dict[i][0][2]))
+				if agent_resources[k]["cpu"] >= request_dict[i][0][0] and agent_resources[k]["ram"] >= request_dict[i][0][1]:
+					print("send " + str(request_dict[i][0][2]) + " cpu " + str(request_dict[i][0][0]) + " ram " + str(request_dict[i][0][1]))
 					#ack = -1
 					#while ack != request_dict[i][0][2]:
 					# Remove
-					if request_dict[i][0][2] == 1:
-						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
+					print("cpu resource util is " + str(resource_util[0]) + " ram resource util is " + str(resource_util[1]))
+					#s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
 					# Remove
-					else:
-						s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
-					agent_resources[k]["cpu"] -= resource_util[0]
-					agent_resources[k]["ram"] -= resource_util[1]
+					#else:
+					agent_resources[k]["cpu"] -= request_dict[i][0][0]
+					agent_resources[k]["ram"] -= request_dict[i][0][1]
+					s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
 					#	ack = s.recv(1024)
 					#	ack = pickle.loads(ack)
 					#	print(ack)
@@ -157,7 +158,7 @@ def main():
 	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
 	#job4 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 2, 4))
 	#job5 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 3, 5))
-	threading.Thread(target = master_func, args = (request_dict,), daemon=True).start()
+	threading.Thread(target = master_func, args = (request_dict,)).start()
 
 
 	# job1.daemon = True
@@ -172,10 +173,11 @@ def main():
 	# job4.start()
 	# job5.start()
 	job_count = 0
-	f = open("file_name.json", "r")
+	f = open("data.json", "r")
 	data = f.read()
-	data = data.split("\n")
+	data = data.split("\n")[:-1]
 	for job in data:
+		print(job)
 		job = json.loads(job)
 		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job_count, job["command"], job["type"]), daemon=True).start()
 		job_count += 1
