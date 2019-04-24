@@ -86,7 +86,7 @@ def master_func(request_dict):
 						#UPDATE
 					agent_resources[agent_ID]["cpu"] += data["cpu"]
 					agent_resources[agent_ID]["ram"] += data["ram"]
-					print("receive agent stuff")
+					print("receive agent stuff", data["time_taken"])
 				else:
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
