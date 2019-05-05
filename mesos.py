@@ -6,8 +6,11 @@ import numpy as np
 import socket
 import pickle
 import json
+import os
+import logging
 #from Queue import Queue
 
+#Framework, agent id, time it took to run job.
 
 #Four Nodes in DataCenter. Count of Semaphore corresponds with amount of resources available in that node
 num_of_nodes = 4
@@ -15,6 +18,14 @@ cpus = [[threading.Semaphore(10),10], [threading.Semaphore(5),5], [threading.Sem
 memory = [[threading.Semaphore(15),15], [threading.Semaphore(10),10], [threading.Semaphore(20),20], [threading.Semaphore(40),40] ]
 resource_caps = [29, 85]
 agent_resources = {}
+logging.basicConfig(filename='output.log',format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p' ,level=logging.DEBUG)
+
+job_count = 0
+total_jobs = 0
+log_file_name = 'output.log'
+log_file = open(log_file_name, 'w+')
+throughput_file_name = 'throughput.log'
+throughput_file = open(throughput_file_name, 'w+')
 
 def getUserDemand(userID, request_dict):
 	#print(userID)
@@ -69,6 +80,9 @@ PORT = 8000
 def master_func(request_dict):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
+	global job_count
+	global total_jobs
+	start = time.time()
 	#s.setblocking(0)
 	while(1):
 		#Get list of available resources per node.
@@ -86,7 +100,14 @@ def master_func(request_dict):
 						#UPDATE
 					agent_resources[agent_ID]["cpu"] += data["cpu"]
 					agent_resources[agent_ID]["ram"] += data["ram"]
-					print("receive agent stuff", data["time_taken"])
+					#print("receive agent stuff %d ", data["job_runtime"])
+					print("%d %f" % (data['agent_id'], data['job_runtime']))
+					log_str = "agent id: " + str(data['agent_id']) + " Job Runtime: " + str(data['job_runtime']) + " Framework Type: " \
+					+ str(data["type"]) + " cpu: " + str(data["cpu"]) + " ram: " + str(data["ram"])  
+					#logging.DEBUG(log_str)
+					job_count -= 1
+					log_file.write(log_str + "\n")
+					log_file.flush()
 				else:
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
@@ -139,6 +160,8 @@ def master_func(request_dict):
 					#	ack = ack["id"]
 					request_dict[i] = request_dict[i][1:]
 					break
+		if job_count == 0:
+			break
 		#if success:
 			#for x in range(num_of_nodes):
 				#if resource_offers[x][1] >= resource_util[0] and resource_offers[x][2] >= resource_util[1]:
@@ -149,7 +172,12 @@ def master_func(request_dict):
 					#print("after is: " + str(create_resource_offer(x)) + "\n")
 					#break
 					#pass
-		
+	
+	total_run_time = time.time() - start
+	throughput = total_jobs/total_run_time
+	th_str = str(throughput)
+	throughput_file.write(th_str)
+	throughput_file.flush()	
 
 def main():
 	request_dict = {0:[] , 1:[], 2:[], 3:[], 4:[]}
@@ -172,15 +200,19 @@ def main():
 	# job3.start()
 	# job4.start()
 	# job5.start()
-	job_count = 0
+	global job_count
+	global total_jobs
 	f = open("data.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
 	for job in data:
+		job_count += 1
+		total_jobs += 1
+
+	for job in data:
 		print(job)
 		job = json.loads(job)
 		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job_count, job["command"], job["type"]), daemon=True).start()
-		job_count += 1
 
 if __name__ == '__main__':
 	main()
