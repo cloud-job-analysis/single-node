@@ -10,3 +10,16 @@
 {"ram": 4, "id": 10, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
 {"ram": 2, "id": 11, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
 {"ram": 1, "id": 12, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 31, "id": 13, "type": "flask_job", "command": "python flask/test11.py", "cpu": 1}
+{"ram": 12, "id": 14, "type": "flask_job", "command": "python flask/test33.py", "cpu": 21}
+{"ram": 3, "id": 15, "type": "flask_job", "command": "python flask/test41.py", "cpu": 13}
+{"ram": 17, "id": 16, "type": "flask_job", "command": "python flask/test52.py", "cpu": 9}
+{"ram": 6, "id": 17, "type": "flask_job", "command": "python flask/test13.py", "cpu": 5}
+{"ram": 9, "id": 18, "type": "flask_job", "command": "python flask/test35.py", "cpu": 7}
+{"ram": 13, "id": 19, "type": "flask_job", "command": "python flask/test45.py", "cpu": 8}
+{"ram": 20, "id": 20, "type": "flask_job", "command": "python flask/test55.py", "cpu": 9}
+{"ram": 30, "id": 21, "type": "flask_job", "command": "python flask/test14.py", "cpu": 10}
+{"ram": 16, "id": 22, "type": "flask_job", "command": "python flask/test34.py", "cpu": 22}
+{"ram": 6, "id": 23, "type": "flask_job", "command": "python flask/test43.py", "cpu": 6}
+{"ram": 7, "id": 24, "type": "flask_job", "command": "python flask/test54.py", "cpu": 4}
+{"ram": 4, "id": 25, "type": "flask_job", "command": "python flask/test15.py", "cpu": 11}

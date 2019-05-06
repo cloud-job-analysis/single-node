@@ -22,6 +22,8 @@ logging.basicConfig(filename='output.log',format='%(asctime)s %(message)s', date
 
 job_count = 0
 total_jobs = 0
+scheduling_alg = 0
+job_features = {}
 
 csv_file_name = 'output.csv'
 csv_file = open(csv_file_name, 'w+')
@@ -62,6 +64,26 @@ def dominantResourceFairness(resource_caps, resource_util, dominant_shares, util
     #if no request can be serviced currently, return failure and the old parameters
 	return False, resource_caps, resource_util, dominant_shares, utils, None, None
 
+def shortestJobFirst(resource_caps, request_dict):
+    request_over = list(request_dict.values())
+    request_list = request_over[0]
+    #sort jobs according to reported predicted job time (ascending)
+    sorted_requests = sorted(request_list, key=lambda x: x[5]) ########################
+    ############Need to change this to reflect that we're sorting according to reported predicted job time
+    print(sorted_requests)
+    #loop through all (sorted) requests
+    for request in sorted_requests:
+        #for this request, if all of it's resource constraints (omit job time)
+        #can be serviced, then run this job
+        print("REQUEST IN SJF IS ")
+        print(request)
+        if np.all(request[0:2] <= resource_caps):
+            #if np.all(request[:-1] <= resource_caps):
+            return True, request
+        
+    #if no request can be serviced, return failure and None for the request we're servicing
+    return False, None
+
 #Creating a resource offer from master side just to pass into acquire_resource_offer
 def create_resource_offer(node_number):
 	return [node_number, cpus[node_number][1], memory[node_number][1] ]
@@ -76,8 +98,8 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 		memory[node_number][0].acquire()
 		memory[node_number][1] -= 1
 
-def job_func(request_dict, user, cpus, memory, jobID, command, type):
-	request_dict[user].append([cpus, memory, jobID, command, type])
+def job_func(request_dict, user, cpus, memory, jobID, command, type, predicted):
+	request_dict[user].append([cpus, memory, jobID, command, type, predicted])
 
 HOST = '10.194.80.70'
 PORT = 8000
@@ -91,10 +113,11 @@ def master_func(request_dict):
 	#s.setblocking(0)
 	while(1):
 		#Get list of available resources per node.
-		s.settimeout(1)
+		s.settimeout(8)
 		try:
 			data = s.recv(1024)
 			print (len(data))
+			print(data)
 			print (pickle.loads(data))
 			if len(data) > 0:
 				# data = s.recv(1024)
@@ -113,14 +136,18 @@ def master_func(request_dict):
 					job_count -= 1
 					log_file.write(log_str + "\n")
 					log_file.flush()
+					print("BEFORE CSV WORKING")
 					csv_str = str(data['id']) + ',' + str(data['agent_id']) + ',' + str(data['ram']) + ',' + \
-					str(data['cpu']) + ',' + str(data['type']) + ',' + str(data['job_runtime'])
+					str(data['cpu']) + ',' + str(data['type']) + ',' + str(data['job_runtime']) + "," + str(job_features[data['id']])
+					print("AFTER CSV WORKING")
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
+					print("AFTER CSV WROTE")
+					print("JOB COUNT IS " + str(job_count))
 				else:
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
-		except Exception as e:
+		except socket.timeout as e:
 			print (e)
 			pass
 
@@ -143,31 +170,45 @@ def master_func(request_dict):
 			resource_caps[1] += resource[2]
 
 		#resource_caps = [29, 85]
+		if scheduling_alg == 0:
+			[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
+			job_i = 0
+		elif scheduling_alg == 1:
+			[success, request] = shortestJobFirst(resource_caps, request_dict)
+			val = list(request_dict.values())
+			print("THE REQUEST AFTER SJF IS ")
+			print(request)
+			i = 0
+			for value in val:
+				idx = 0
+				for v in value:
+					if v == request:
+						job_i = idx
+					idx += 1
 
-		[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
 
 		#This is where we add our allocation/scheduling algorithm...
 		#For now, just loop through resource_offers seeing which node can match job requirements
 		print(success)
 		if success:
 			for k, v in agent_resources.items():
-				if agent_resources[k]["cpu"] >= request_dict[i][0][0] and agent_resources[k]["ram"] >= request_dict[i][0][1]:
-					print("send " + str(request_dict[i][0][2]) + " cpu " + str(request_dict[i][0][0]) + " ram " + str(request_dict[i][0][1]))
+				if agent_resources[k]["cpu"] >= request_dict[i][job_i][0] and agent_resources[k]["ram"] >= request_dict[i][job_i][1]:
+					print("send " + str(request_dict[i][job_i][2]) + " cpu " + str(request_dict[i][job_i][0]) + " ram " + str(request_dict[i][job_i][1]))
 					#ack = -1
 					#while ack != request_dict[i][0][2]:
 					# Remove
-					print("cpu resource util is " + str(resource_util[0]) + " ram resource util is " + str(resource_util[1]))
+					#print("cpu resource util is " + str(resource_util[0]) + " ram resource util is " + str(resource_util[1]))
 					#s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
 					# Remove
 					#else:
-					agent_resources[k]["cpu"] -= request_dict[i][0][0]
-					agent_resources[k]["ram"] -= request_dict[i][0][1]
-					s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
+					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
+					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
+					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
 					#	ack = s.recv(1024)
 					#	ack = pickle.loads(ack)
 					#	print(ack)
 					#	ack = ack["id"]
-					request_dict[i] = request_dict[i][1:]
+					request_dict[i] = request_dict[i][0:job_i] + request_dict[i][job_i+1:]
 					break
 		if job_count == 0:
 			break
@@ -189,7 +230,8 @@ def master_func(request_dict):
 	throughput_file.flush()	
 
 def main():
-	request_dict = {0:[] , 1:[], 2:[], 3:[], 4:[]}
+	request_dict = {0:[]}
+
 	#job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
 	#job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
 	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
@@ -211,17 +253,20 @@ def main():
 	# job5.start()
 	global job_count
 	global total_jobs
-	f = open("data.json", "r")
+	global job_features 
+	f = open("data_final.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
 	for job in data:
 		job_count += 1
 		total_jobs += 1
+		job = json.loads(job)
+		job_features[job["id"]] = job["feature"]
 
 	for job in data:
 		print(job)
 		job = json.loads(job)
-		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"]), daemon=True).start()
+		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 
 if __name__ == '__main__':
 	main()
