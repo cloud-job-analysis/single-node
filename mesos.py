@@ -22,6 +22,11 @@ logging.basicConfig(filename='output.log',format='%(asctime)s %(message)s', date
 
 job_count = 0
 total_jobs = 0
+
+csv_file_name = 'output.csv'
+csv_file = open(csv_file_name, 'w+')
+csv_file.write('Job ID,Agent ID,RAM,CPU,Framework Type,Job Runtime\n')
+csv_file.flush()
 log_file_name = 'output.log'
 log_file = open(log_file_name, 'w+')
 throughput_file_name = 'throughput.log'
@@ -101,13 +106,17 @@ def master_func(request_dict):
 					agent_resources[agent_ID]["cpu"] += data["cpu"]
 					agent_resources[agent_ID]["ram"] += data["ram"]
 					#print("receive agent stuff %d ", data["job_runtime"])
-					print("%d %f" % (data['agent_id'], data['job_runtime']))
+					print("DATA IS HERE %d %d %f" % (data['id'], data['agent_id'], data['job_runtime']))
 					log_str = "agent id: " + str(data['agent_id']) + " Job Runtime: " + str(data['job_runtime']) + " Framework Type: " \
 					+ str(data["type"]) + " cpu: " + str(data["cpu"]) + " ram: " + str(data["ram"])  
 					#logging.DEBUG(log_str)
 					job_count -= 1
 					log_file.write(log_str + "\n")
 					log_file.flush()
+					csv_str = str(data['id']) + ',' + str(data['agent_id']) + ',' + str(data['ram']) + ',' + \
+					str(data['cpu']) + ',' + str(data['type']) + ',' + str(data['job_runtime'])
+					csv_file.write(csv_str+'\n')
+					csv_file.flush()
 				else:
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
@@ -212,7 +221,7 @@ def main():
 	for job in data:
 		print(job)
 		job = json.loads(job)
-		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job_count, job["command"], job["type"]), daemon=True).start()
+		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"]), daemon=True).start()
 
 if __name__ == '__main__':
 	main()
