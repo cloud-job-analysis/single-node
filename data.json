@@ -1,8 +1,8 @@
-{"ram": 3, "id": 1, "type": "flask_job", "command": "python test.py", "cpu": 1}
-{"ram": 2, "id": 6, "type": "flask_job", "command": "python test.py", "cpu": 2}
-{"ram": 3, "id": 7, "type": "flask_job", "command": "python test.py", "cpu": 3}
-{"ram": 1, "id": 8, "type": "flask_job", "command": "python test.py", "cpu": 4}
-{"ram": 3, "id": 5, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper /home/avais/Desktop/cloud/single-node/MapReduce/mapper.py -reducer /home/avais/Desktop/cloud/single-node/MapReduce/reducer.py -input /home/avais/Desktop/cloud/single-node/MapReduce/guttenberg/ -output 5", "cpu": 1}
-{"ram": 2, "id": 4, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper /home/avais/Desktop/cloud/single-node/MapReduce/mapper.py -reducer /home/avais/Desktop/cloud/single-node/MapReduce/reducer.py -input /home/avais/Desktop/cloud/single-node/MapReduce/guttenberg/ -output 4", "cpu": 2}
-{"ram": 3, "id": 3, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper /home/avais/Desktop/cloud/single-node/MapReduce/mapper.py -reducer /home/avais/Desktop/cloud/single-node/MapReduce/reducer.py -input /home/avais/Desktop/cloud/single-node/MapReduce/guttenberg/ -output 3", "cpu": 3}
-{"ram": 1, "id": 2, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper /home/avais/Desktop/cloud/single-node/MapReduce/mapper.py -reducer /home/avais/Desktop/cloud/single-node/MapReduce/reducer.py -input /home/avais/Desktop/cloud/single-node/MapReduce/guttenberg/ -output 2", "cpu": 4}
+{"ram": 3, "id": 1, "type": "flask_job", "command": "python flask/test11.py", "cpu": 1}
+{"ram": 2, "id": 6, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 3, "id": 7, "type": "flask_job", "command": "python flask/test42.py", "cpu": 3}
+{"ram": 1, "id": 8, "type": "flask_job", "command": "python flask/test53.py", "cpu": 4}
+{"ram": 3, "id": 5, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/guttenberg/ -output 5", "cpu": 1}
+{"ram": 2, "id": 4, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/guttenberg/ -output 4", "cpu": 2}
+{"ram": 3, "id": 3, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/guttenberg/ -output 3", "cpu": 3}
+{"ram": 1, "id": 2, "type": "mr_job", "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/guttenberg/ -output 2", "cpu": 4}
