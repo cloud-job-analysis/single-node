@@ -142,3 +142,39 @@
 {"ram": 6, "id": 141, "type": "flask_job", "command": "python flask/test43.py", "cpu": 6}
 {"ram": 7, "id": 142, "type": "flask_job", "command": "python flask/test54.py", "cpu": 4}
 {"ram": 4, "id": 143, "type": "flask_job", "command": "python flask/test15.py", "cpu": 11}
+{"ram": 5, "id": 144, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 14, "id": 145, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3}
+{"ram": 12, "id": 146, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 9}
+{"ram": 11, "id": 147, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 10, "id": 148, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 7}
+{"ram": 4, "id": 149, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1}
+{"ram": 20, "id": 150, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 11, "id": 151, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 4}
+{"ram": 17, "id": 152, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 3, "id": 153, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 9, "id": 154, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 15, "id": 155, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 19, "id": 156, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 21, "id": 157, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 27, "id": 158, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 1, "id": 159, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 17, "id": 160, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 4, "id": 161, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 24, "id": 162, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 19, "id": 163, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 12, "id": 164, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 4, "id": 165, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 21, "id": 166, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 14, "id": 167, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 19, "id": 168, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 4, "id": 169, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 23, "id": 170, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 12, "id": 171, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 17, "id": 172, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 7, "id": 173, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 20, "id": 174, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 18, "id": 175, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
+{"ram": 1, "id": 176, "type": "ml", "command": "python ml.py --dataset iris", "cpu": 4}
+{"ram": 4, "id": 177, "type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2}
+{"ram": 2, "id": 178, "type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2}
+{"ram": 1, "id": 179, "type": "ml", "command": "python ml.py --dataset wine", "cpu": 3}
