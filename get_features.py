@@ -1,5 +1,6 @@
 import json
 import pickle
+import random
 f = open("data.json", "r")
 data = f.read()
 f.close()
@@ -46,5 +47,6 @@ for job in data:
 			prev = element
 		feature = ["mr_job", input_size, mappers, reducers]
 	job["feature"] = feature
+	job["predicted"] = random.randint(1,10)
 	f.write(json.dumps(job) + '\n')
 f.close()
