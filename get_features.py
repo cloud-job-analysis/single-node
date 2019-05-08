@@ -1,4 +1,5 @@
 import json
+import pickle
 f = open("data.json", "r")
 data = f.read()
 f.close()
@@ -6,8 +7,13 @@ data = data.split("\n")[:-1]
 file_size = [4, 1600, 1600, 1600, 1600]
 sort = ['tim', 'bogo', 'insertion', 'bubble', 'word_count']
 dataset = {"wine": [178, 13, 3], "mnist": [1797, 64, 10], "cancer": [569, 30, 2], "iris": [150, 4, 3]}
+file_sizes = {}
+with open('./MapReduce/folder_sizes.pkl', 'rb') as f:
+	file_sizes = pickle.load(f)
 features = list()
 f = open('data_final.json', 'w')
+
+
 for job in data:
 	#print(job)
 	job = json.loads(job)
@@ -26,6 +32,7 @@ for job in data:
 		feature = []
 		mappers = -1
 		reducers = -1
+		input_size = -1
 		for element in command:
 			if prev == '-D':
 				number = int(element.split('=')[-1])
@@ -33,7 +40,11 @@ for job in data:
 					mappers = number
 				else:
 					reducers = number
+			elif prev == '-input':
+				dir_name = '/' + element.split('/')[-1]
+				input_size = file_sizes[dir_name]
 			prev = element
+		feature = ["mr_job", input_size, mappers, reducers]
 	job["feature"] = feature
 	f.write(json.dumps(job) + '\n')
 f.close()
