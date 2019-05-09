@@ -22,7 +22,7 @@ logging.basicConfig(filename='output.log',format='%(asctime)s %(message)s', date
 
 job_count = 0
 total_jobs = 0
-scheduling_alg = 1
+scheduling_alg = 0
 job_features = {}
 
 csv_file_name = 'output.csv'
@@ -33,6 +33,8 @@ log_file_name = 'output.log'
 log_file = open(log_file_name, 'w+')
 throughput_file_name = 'throughput.log'
 throughput_file = open(throughput_file_name, 'w+')
+
+user_job_dict = {}
 
 def getUserDemand(userID, request_dict):
 	if not request_dict[userID]:
@@ -130,12 +132,14 @@ def master_func(request_dict):
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
 					#print remaining jobs to run and escaping if they have reached 0
+					job_id = data['id']
+					user_id = user_job_dict[job_id]
 					print("JOB COUNT IS " + str(job_count))
 					resource_utilizations[0] -= data['cpu']
 					resource_utilizations[1] -= data['ram']
-					userUtilization[data['user_id']][0] -= data['cpu']
-					userUtilization[data['user_id']][1] -= data['ram']
-					userDomShares[data['user_id']] = np.max(userUtilization[data['user_id']] / resource_caps)
+					userUtilization[user_id][0] -= data['cpu']
+					userUtilization[user_id][1] -= data['ram']
+					userDomShares[user_id] = np.max(userUtilization[user_id] / resource_caps)
 					if job_count == 0:
 						break
 				else:
@@ -185,9 +189,10 @@ def master_func(request_dict):
 				if agent_resources[k]["cpu"] >= request_dict[i][job_i][0] and agent_resources[k]["ram"] >= request_dict[i][job_i][1]:
 					print("send job # " + str(request_dict[i][job_i][2]) + " cpu " + str(request_dict[i][job_i][0]) + " ram " + str(request_dict[i][job_i][1]))
 					#Decrementing resources that job is using
+					user_job_dict[request_dict[i][job_i][2]] = i
 					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
 					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
-					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4], "user_id": i  }))
+					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
 					#Get rid of job request from request dict
 					request_dict[i] = request_dict[i][0:job_i] + request_dict[i][job_i+1:]
 					break
