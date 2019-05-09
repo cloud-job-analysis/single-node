@@ -91,7 +91,7 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 
 #Adding in job requests inside the request dictionary
 def job_func(request_dict, user, cpus, memory, jobID, command, type, predicted):
-	request_dict[user].append([cpus, memory, jobID, command, type, predicted])
+	request_dict[user].append([cpus, memory, jobID, command, type, predicted, user])
 
 HOST = '0.0.0.0'
 PORT = 8000
@@ -116,6 +116,7 @@ def master_func(request_dict):
 			data = s.recv(1024)
 			if len(data) > 0:
 				data = pickle.loads(data)
+				print(data)
 				#CHECK TYPE OF DATA, AGENT UPDATE OR AGENT RESOURCE OFFERS
 				agent_ID = data['agent_id']
 				if agent_ID in agent_resources:
@@ -130,6 +131,11 @@ def master_func(request_dict):
 					csv_file.flush()
 					#print remaining jobs to run and escaping if they have reached 0
 					print("JOB COUNT IS " + str(job_count))
+					resource_utilizations[0] -= data['cpu']
+					resource_utilizations[1] -= data['ram']
+					userUtilization[data['user_id']][0] -= data['cpu']
+					userUtilization[data['user_id']][1] -= data['ram']
+					dominant_shares[data['user_id']] = np.max(userUtilization[data['user_id']] / resource_caps)
 					if job_count == 0:
 						break
 				else:
@@ -181,7 +187,7 @@ def master_func(request_dict):
 					#Decrementing resources that job is using
 					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
 					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
-					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
+					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4], "user_id": i  }))
 					#Get rid of job request from request dict
 					request_dict[i] = request_dict[i][0:job_i] + request_dict[i][job_i+1:]
 					break
@@ -201,7 +207,6 @@ def main():
 		request_dict[2] = []
 		request_dict[3] = []
 		request_dict[4] = []
-
 
 	global job_count
 	global total_jobs
