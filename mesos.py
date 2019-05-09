@@ -89,6 +89,7 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 		memory[node_number][0].acquire()
 		memory[node_number][1] -= 1
 
+#Adding in job requests inside the request dictionary
 def job_func(request_dict, user, cpus, memory, jobID, command, type, predicted):
 	request_dict[user].append([cpus, memory, jobID, command, type, predicted])
 
@@ -96,6 +97,8 @@ HOST = '0.0.0.0'
 PORT = 8000
 
 def master_func(request_dict):
+
+	#initializing variables for mesos master
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
 	global job_count
@@ -104,64 +107,60 @@ def master_func(request_dict):
 	userUtilization = np.zeros((5, 2))
 	userDomShares = np.zeros((5))
 	start = time.time()
-	#s.setblocking(0)
+
+	#Start Mesos Master
 	while(1):
 		#Get list of available resources per node.
 		s.settimeout(8)
 		try:
 			data = s.recv(1024)
 			if len(data) > 0:
-				# data = s.recv(1024)
 				data = pickle.loads(data)
 				#CHECK TYPE OF DATA, AGENT UPDATE OR AGENT RESOURCE OFFERS
 				agent_ID = data['agent_id']
 				if agent_ID in agent_resources:
-						#UPDATE
+					#Updating resource offers after an agent has completed a job
 					agent_resources[agent_ID]["cpu"] += data["cpu"]
 					agent_resources[agent_ID]["ram"] += data["ram"]
-					#print("receive agent stuff %d ", data["job_runtime"])
-					#print("DATA IS HERE %d %d %f" % (data['id'], data['agent_id'], data['job_runtime']))
-					log_str = "agent id: " + str(data['agent_id']) + " Job Runtime: " + str(data['job_runtime']) + " Framework Type: " \
-					+ str(data["type"]) + " cpu: " + str(data["cpu"]) + " ram: " + str(data["ram"])  
-					#logging.DEBUG(log_str)
 					job_count -= 1
-					log_file.write(log_str + "\n")
-					log_file.flush()
+					#Write to csv
 					csv_str = str(data['id']) + ',' + str(data['agent_id']) + ',' + str(data['ram']) + ',' + \
 					str(data['cpu']) + ',' + str(data['type']) + ',' + str(data['job_runtime']) + "," + str(job_features[data['id']])
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
+					#print remaining jobs to run and escaping if they have reached 0
 					print("JOB COUNT IS " + str(job_count))
 					if job_count == 0:
 						break
 				else:
+					#Adding in a new resource offer for a new agent
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
 		except socket.timeout as e:
 			print (e)
 			pass
 
+		#Adding in resource offers to a cleaner format
 		resource_offers = []
-		#for x in range(num_of_nodes):
-		#	resource_offers.append(create_resource_offer(x))
 		for k, v in agent_resources.items():
 			agent_cpu = v["cpu"]
 			agent_ram = v["ram"]
 			resource_offers.append( [k, agent_cpu, agent_ram])
 
-		#print(resource_offers)
-		numUsers = 2
+		#Determining resource caps
 		resource_caps = [0, 0]
 		for resource in resource_offers:
 			resource_caps[0] += resource[1]
 			resource_caps[1] += resource[2]
 
+		#DRF Scheduling Algorithm
 		if scheduling_alg == 0:
 			[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
 			resource_utilizations = resource_util
 			userUtilization = utils
 			userDomShares = dominant_shares
 			job_i = 0
+		#SJF Scheduling Algorithm
 		elif scheduling_alg == 1:
 			[success, request] = shortestJobFirst(resource_caps, request_dict)
 			val = list(request_dict.values())
@@ -173,43 +172,22 @@ def master_func(request_dict):
 						job_i = idx
 					idx += 1
 
-
-		#This is where we add our allocation/scheduling algorithm...
-		#For now, just loop through resource_offers seeing which node can match job requirements
+		#Sending scheduled job to agent
 		print(success)
 		if success:
 			for k, v in agent_resources.items():
 				if agent_resources[k]["cpu"] >= request_dict[i][job_i][0] and agent_resources[k]["ram"] >= request_dict[i][job_i][1]:
 					print("send job # " + str(request_dict[i][job_i][2]) + " cpu " + str(request_dict[i][job_i][0]) + " ram " + str(request_dict[i][job_i][1]))
-					#ack = -1
-					#while ack != request_dict[i][0][2]:
-					# Remove
-					#print("cpu resource util is " + str(resource_util[0]) + " ram resource util is " + str(resource_util[1]))
-					#s.send(pickle.dumps({"id": request_dict[i][0][2], "cpu": request_dict[i][0][0], "ram": request_dict[i][0][1], "command": request_dict[i][0][3], "type": request_dict[i][0][4]}))
-					# Remove
-					#else:
+					#Decrementing resources that job is using
 					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
 					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
 					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
-					#	ack = s.recv(1024)
-					#	ack = pickle.loads(ack)
-					#	print(ack)
-					#	ack = ack["id"]
+					#Get rid of job request from request dict
 					request_dict[i] = request_dict[i][0:job_i] + request_dict[i][job_i+1:]
 					break
 		if job_count == 0:
 			break
-		#if success:
-			#for x in range(num_of_nodes):
-				#if resource_offers[x][1] >= resource_util[0] and resource_offers[x][2] >= resource_util[1]:
-					#print("before is: " + str(create_resource_offer(x)))
-					#acquire_resource_offer(resource_offers[x], int(resource_util[0]), int(resource_util[1]))
-					#request_dict[i] = request_dict[i][1:]
-					#print("job request is " + str(resource_util))
-					#print("after is: " + str(create_resource_offer(x)) + "\n")
-					#break
-					#pass
-	
+	#Write throuhgput after master has finished running all jobs
 	total_run_time = time.time() - start
 	throughput = total_jobs/total_run_time
 	th_str = str(throughput)
@@ -223,37 +201,23 @@ def main():
 		request_dict[2] = []
 		request_dict[3] = []
 		request_dict[4] = []
-	#job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
-	#job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
-	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
-	#job4 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 2, 4))
-	#job5 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 3, 5))
 	threading.Thread(target = master_func, args = (request_dict,)).start()
 
 
-	# job1.daemon = True
-	# job2.daemon = True
-	# job3.daemon = True
-	# job4.daemon = True
-	# job5.daemon = True
-	# master.start()
-	# job1.start()
-	# job2.start()
-	# job3.start()
-	# job4.start()
-	# job5.start()
 	global job_count
 	global total_jobs
 	global job_features 
 	f = open("data_final.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
+	#counting number of jobs
 	for job in data:
 		job_count += 1
 		total_jobs += 1
 		job = json.loads(job)
 		job_features[job["id"]] = job["feature"]
 
+	#Adding jobs into request dict
 	for job in data:	
 		job = json.loads(job)
 		r1 = random.randint(0,4)
