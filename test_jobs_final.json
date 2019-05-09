@@ -1,0 +1,600 @@
+{"type": "flask_job", "id": 30000, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30001, "feature": ["flask_job", 4, "word_count"], "predicted": 0.28759244907762804, "cpu": 3, "ram": 1, "command": "python flask/test15.py"}
+{"type": "flask_job", "id": 30002, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30003, "feature": ["flask_job", 4, "word_count"], "predicted": 0.28759244907762804, "cpu": 3, "ram": 4, "command": "python flask/test15.py"}
+{"type": "flask_job", "id": 30004, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 4, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30005, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 1, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30006, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 2, "command": "python flask/test53.py"}
+{"type": "flask_job", "id": 30007, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 1, "ram": 2, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30008, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30009, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 3, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30010, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 1, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30011, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 3, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30012, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test41.py"}
+{"type": "flask_job", "id": 30013, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30014, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 4, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30015, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 3, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30016, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 4, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30017, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 2, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30018, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30019, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 2, "ram": 1, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30020, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 3, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30021, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 1, "ram": 3, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30022, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30023, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30024, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 3, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30025, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 1, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30026, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30027, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 2, "ram": 1, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30028, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30029, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 1, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30030, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30031, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 1, "ram": 2, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30032, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 2, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30033, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 2, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30034, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 3, "command": "python flask/test41.py"}
+{"type": "flask_job", "id": 30035, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 1, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30036, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 4, "command": "python flask/test41.py"}
+{"type": "flask_job", "id": 30037, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 2, "ram": 1, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30038, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 3, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30039, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 3, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30040, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 1, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30041, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 1, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30042, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 1, "ram": 1, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30043, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 3, "ram": 2, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30044, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 2, "ram": 1, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30045, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 1, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30046, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 3, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30047, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30048, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 3, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30049, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 2, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30050, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 4, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30051, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 4, "command": "python flask/test53.py"}
+{"type": "flask_job", "id": 30052, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 1, "ram": 2, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30053, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 1, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30054, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 3, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30055, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 2, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30056, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30057, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 3, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30058, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30059, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 4, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30060, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30061, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30062, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 1, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30063, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 2, "ram": 3, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30064, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30065, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 2, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30066, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 1, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30067, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30068, "feature": ["flask_job", 4, "word_count"], "predicted": 0.28759244907762804, "cpu": 1, "ram": 2, "command": "python flask/test15.py"}
+{"type": "flask_job", "id": 30069, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30070, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test41.py"}
+{"type": "flask_job", "id": 30071, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 2, "ram": 1, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30072, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 4, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30073, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30074, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 2, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30075, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 3, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30076, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 3, "command": "python flask/test53.py"}
+{"type": "flask_job", "id": 30077, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 4, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30078, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 4, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30079, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 2, "command": "python flask/test23.py"}
+{"type": "flask_job", "id": 30080, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 2, "ram": 1, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30081, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 1, "ram": 2, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30082, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 1, "ram": 3, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30083, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 1, "ram": 2, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30084, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30085, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 4, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30086, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 3, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30087, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30088, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30089, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 3, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30090, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30091, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 4, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30092, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 2, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30093, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 3, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30094, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 1, "ram": 2, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30095, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 3, "ram": 2, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30096, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30097, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 4, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30098, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 3, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30099, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 3, "ram": 1, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30100, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 1, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30101, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 4, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30102, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 3, "ram": 2, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30103, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 1, "ram": 2, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30104, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 3, "ram": 2, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30105, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 1, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30106, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 2, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30107, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30108, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 3, "ram": 2, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30109, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30110, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 1, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30111, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 2, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30112, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30113, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 1, "command": "python flask/test23.py"}
+{"type": "flask_job", "id": 30114, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 3, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30115, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 3, "ram": 3, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30116, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 1, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30117, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 3, "ram": 2, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30118, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 4, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30119, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test53.py"}
+{"type": "flask_job", "id": 30120, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 1, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30121, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 1, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30122, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 2, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30123, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 3, "ram": 2, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30124, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 4, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30125, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 2, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30126, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30127, "feature": ["flask_job", 4, "word_count"], "predicted": 0.28759244907762804, "cpu": 1, "ram": 1, "command": "python flask/test15.py"}
+{"type": "flask_job", "id": 30128, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 1, "command": "python flask/test23.py"}
+{"type": "flask_job", "id": 30129, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 4, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30130, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 2, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30131, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 3, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30132, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 2, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30133, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 1, "ram": 2, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30134, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 2, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30135, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 4, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30136, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 2, "command": "python flask/test41.py"}
+{"type": "flask_job", "id": 30137, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 1, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30138, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 2, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30139, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30140, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30141, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 4, "command": "python flask/test55.py"}
+{"type": "flask_job", "id": 30142, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 4, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30143, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30144, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 1, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30145, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 3, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30146, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 2, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30147, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 3, "ram": 1, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30148, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 1, "ram": 1, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30149, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 1, "ram": 2, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30150, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 1, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30151, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 2, "ram": 2, "command": "python flask/test23.py"}
+{"type": "flask_job", "id": 30152, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 3, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30153, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 2, "ram": 1, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30154, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30155, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30156, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 1, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30157, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 3, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30158, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30159, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 1, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30160, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30161, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 2, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30162, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 3, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30163, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 4, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30164, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30165, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 3, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30166, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 4, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30167, "feature": ["flask_job", 4, "bubble"], "predicted": 0.28878621101154933, "cpu": 2, "ram": 3, "command": "python flask/test14.py"}
+{"type": "flask_job", "id": 30168, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 3, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30169, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 1, "command": "python flask/test44.py"}
+{"type": "flask_job", "id": 30170, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 4, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30171, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 1, "command": "python flask/test35.py"}
+{"type": "flask_job", "id": 30172, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 3, "ram": 4, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30173, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 2, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30174, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 1, "ram": 4, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30175, "feature": ["flask_job", 4, "bogo"], "predicted": 0.43241929795834166, "cpu": 2, "ram": 4, "command": "python flask/test12.py"}
+{"type": "flask_job", "id": 30176, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 4, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30177, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 2, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30178, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test43.py"}
+{"type": "flask_job", "id": 30179, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 2, "ram": 1, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30180, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 1, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30181, "feature": ["flask_job", 4, "tim"], "predicted": 0.28917932933101453, "cpu": 3, "ram": 3, "command": "python flask/test11.py"}
+{"type": "flask_job", "id": 30182, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 3, "ram": 4, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30183, "feature": ["flask_job", 4, "word_count"], "predicted": 0.28759244907762804, "cpu": 2, "ram": 3, "command": "python flask/test15.py"}
+{"type": "flask_job", "id": 30184, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 2, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30185, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 3, "command": "python flask/test54.py"}
+{"type": "flask_job", "id": 30186, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 3, "ram": 1, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30187, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 3, "command": "python flask/test53.py"}
+{"type": "flask_job", "id": 30188, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 1, "ram": 1, "command": "python flask/test51.py"}
+{"type": "flask_job", "id": 30189, "feature": ["flask_job", 1600, "insertion"], "predicted": 3.1188818594497225, "cpu": 1, "ram": 2, "command": "python flask/test33.py"}
+{"type": "flask_job", "id": 30190, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 3, "command": "python flask/test45.py"}
+{"type": "flask_job", "id": 30191, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 2, "ram": 2, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30192, "feature": ["flask_job", 4, "insertion"], "predicted": 0.32408190513155843, "cpu": 2, "ram": 4, "command": "python flask/test13.py"}
+{"type": "flask_job", "id": 30193, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 3, "command": "python flask/test24.py"}
+{"type": "flask_job", "id": 30194, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 3, "ram": 2, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30195, "feature": ["flask_job", 1600, "word_count"], "predicted": 0.300034948373757, "cpu": 2, "ram": 4, "command": "python flask/test25.py"}
+{"type": "flask_job", "id": 30196, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 3, "command": "python flask/test21.py"}
+{"type": "flask_job", "id": 30197, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 1, "command": "python flask/test31.py"}
+{"type": "flask_job", "id": 30198, "feature": ["flask_job", 1600, "bubble"], "predicted": 7.0660983710568885, "cpu": 1, "ram": 4, "command": "python flask/test34.py"}
+{"type": "flask_job", "id": 30199, "feature": ["flask_job", 1600, "tim"], "predicted": 0.29355423443313855, "cpu": 2, "ram": 4, "command": "python flask/test31.py"}
+{"type": "ml", "id": 6000, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6001, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6002, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6003, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6004, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6005, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6006, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6007, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6008, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6009, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6010, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6011, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6012, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6013, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6014, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6015, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6016, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6017, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6018, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6019, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6020, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6021, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6022, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6023, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6024, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6025, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6026, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6027, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6028, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6029, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6030, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6031, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6032, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6033, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6034, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6035, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6036, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6037, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6038, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6039, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6040, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6041, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6042, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6043, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6044, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6045, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6046, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6047, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6048, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6049, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6050, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6051, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6052, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6053, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6054, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6055, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6056, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6057, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6058, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6059, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6060, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6061, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6062, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6063, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6064, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6065, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6066, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6067, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6068, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6069, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6070, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6071, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6072, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6073, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6074, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6075, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6076, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6077, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6078, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6079, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6080, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6081, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6082, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6083, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6084, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6085, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6086, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6087, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6088, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6089, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6090, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6091, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6092, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6093, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6094, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6095, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6096, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6097, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6098, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6099, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6100, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6101, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6102, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6103, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6104, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6105, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6106, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6107, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6108, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6109, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6110, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6111, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6112, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6113, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6114, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6115, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6116, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6117, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6118, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6119, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6120, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6121, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6122, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6123, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6124, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6125, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6126, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6127, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6128, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6129, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6130, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6131, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6132, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6133, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6134, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6135, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6136, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6137, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6138, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6139, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6140, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6141, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6142, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6143, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6144, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6145, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6146, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6147, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6148, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6149, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6150, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6151, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6152, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6153, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6154, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6155, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6156, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6157, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6158, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6159, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6160, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6161, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6162, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6163, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6164, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6165, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6166, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6167, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6168, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6169, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6170, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6171, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6172, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6173, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6174, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6175, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6176, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6177, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6178, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6179, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6180, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6181, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6182, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6183, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6184, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6185, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6186, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6187, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6188, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6189, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6190, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6191, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6192, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6193, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6194, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6195, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6196, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6197, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6198, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6199, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6200, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6201, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6202, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6203, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6204, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6205, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6206, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6207, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6208, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6209, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6210, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6211, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6212, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6213, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6214, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6215, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6216, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6217, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6218, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6219, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6220, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6221, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6222, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6223, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6224, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6225, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6226, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6227, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6228, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6229, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6230, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6231, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6232, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6233, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6234, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6235, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6236, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6237, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6238, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6239, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6240, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6241, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6242, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6243, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6244, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6245, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6246, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6247, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6248, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6249, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6250, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6251, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6252, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6253, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6254, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6255, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6256, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6257, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 4, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6258, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6259, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6260, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6261, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6262, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6263, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6264, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6265, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 1, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6266, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6267, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6268, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6269, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6270, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6271, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6272, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6273, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6274, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6275, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 4, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6276, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 2, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6277, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6278, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 3, "ram": 3, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6279, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6280, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6281, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6282, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 1, "ram": 1, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6283, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6284, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6285, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6286, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 1, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6287, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 4, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6288, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 3, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6289, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6290, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 1, "ram": 2, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6291, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 3, "ram": 1, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6292, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 2, "ram": 2, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6293, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 3, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6294, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 1, "ram": 4, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6295, "feature": ["ml", 569, 30, 2], "predicted": 0.61842999458313, "cpu": 2, "ram": 2, "command": "python ml.py --dataset cancer"}
+{"type": "ml", "id": 6296, "feature": ["ml", 150, 4, 3], "predicted": 0.5973185062408448, "cpu": 1, "ram": 3, "command": "python ml.py --dataset iris"}
+{"type": "ml", "id": 6297, "feature": ["ml", 1797, 64, 10], "predicted": 1.2620185375213624, "cpu": 2, "ram": 2, "command": "python ml.py --dataset mnist"}
+{"type": "ml", "id": 6298, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 3, "command": "python ml.py --dataset wine"}
+{"type": "ml", "id": 6299, "feature": ["ml", 178, 13, 3], "predicted": 0.5933290481567384, "cpu": 3, "ram": 2, "command": "python ml.py --dataset wine"}
+{"predicted": 142.61459099230575, "id": 50000, "feature": ["mr_job", 2286993, 10, 4], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50000"}
+{"predicted": 151.57457311023592, "id": 50001, "feature": ["mr_job", 3284194, 5, 4], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50001"}
+{"predicted": 147.11171686517574, "id": 50002, "feature": ["mr_job", 2082303, 4, 1], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50002"}
+{"predicted": 137.20614166244135, "id": 50003, "feature": ["mr_job", 1410555, 2, 4], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=2 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50003"}
+{"predicted": 143.36536239358503, "id": 50004, "feature": ["mr_job", 1795060, 7, 1], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50004"}
+{"predicted": 143.01210420685499, "id": 50005, "feature": ["mr_job", 1695811, 7, 2], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50005"}
+{"predicted": 144.09050696744006, "id": 50006, "feature": ["mr_job", 1410555, 10, 3], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50006"}
+{"predicted": 144.74615638624513, "id": 50007, "feature": ["mr_job", 493920, 7, 2], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50007"}
+{"predicted": 134.84350190313575, "id": 50008, "feature": ["mr_job", 1987, 4, 4], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in5 -output ./50008"}
+{"predicted": 146.7773591660058, "id": 50009, "feature": ["mr_job", 1697798, 8, 4], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50009"}
+{"predicted": 151.72165931066579, "id": 50010, "feature": ["mr_job", 1588383, 4, 3], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in14 -output ./50010"}
+{"predicted": 138.8450552415994, "id": 50011, "feature": ["mr_job", 2994964, 5, 1], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50011"}
+{"predicted": 142.22081774000952, "id": 50012, "feature": ["mr_job", 700597, 10, 3], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50012"}
+{"predicted": 143.0077454862298, "id": 50013, "feature": ["mr_job", 3284194, 8, 1], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50013"}
+{"predicted": 155.69141449273815, "id": 50014, "feature": ["mr_job", 3490871, 3, 1], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50014"}
+{"predicted": 144.02691364631838, "id": 50015, "feature": ["mr_job", 2080316, 4, 4], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50015"}
+{"predicted": 138.03447706907005, "id": 50016, "feature": ["mr_job", 1588383, 6, 3], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in14 -output ./50016"}
+{"predicted": 144.38715915217009, "id": 50017, "feature": ["mr_job", 1408568, 1, 3], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in6 -output ./50017"}
+{"predicted": 146.83791687598946, "id": 50018, "feature": ["mr_job", 2082303, 6, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50018"}
+{"predicted": 140.21695924587766, "id": 50019, "feature": ["mr_job", 2080316, 7, 3], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50019"}
+{"predicted": 145.76093861176653, "id": 50020, "feature": ["mr_job", 1904475, 6, 2], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in28 -output ./50020"}
+{"predicted": 139.9587413091775, "id": 50021, "feature": ["mr_job", 700597, 10, 4], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50021"}
+{"predicted": 146.80543255316735, "id": 50022, "feature": ["mr_job", 1586396, 7, 2], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50022"}
+{"predicted": 146.8725570883137, "id": 50023, "feature": ["mr_job", 1795060, 6, 2], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50023"}
+{"predicted": 147.3797240726382, "id": 50024, "feature": ["mr_job", 1697798, 6, 3], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50024"}
+{"predicted": 125.00959992872858, "id": 50025, "feature": ["mr_job", 206677, 4, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50025"}
+{"predicted": 142.28489202530693, "id": 50026, "feature": ["mr_job", 2788287, 10, 3], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50026"}
+{"predicted": 137.85618877954676, "id": 50027, "feature": ["mr_job", 1795060, 1, 3], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50027"}
+{"predicted": 141.8953729185551, "id": 50028, "feature": ["mr_job", 495907, 6, 4], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50028"}
+{"predicted": 137.14097660328142, "id": 50029, "feature": ["mr_job", 2288980, 1, 4], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50029"}
+{"predicted": 144.02691364631838, "id": 50030, "feature": ["mr_job", 2080316, 4, 4], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50030"}
+{"predicted": 144.84933361395954, "id": 50031, "feature": ["mr_job", 2994964, 1, 2], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50031"}
+{"predicted": 137.32304608866224, "id": 50032, "feature": ["mr_job", 2082303, 1, 2], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50032"}
+{"predicted": 135.34354030773096, "id": 50033, "feature": ["mr_job", 2080316, 5, 2], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50033"}
+{"predicted": 142.77868251559224, "id": 50034, "feature": ["mr_job", 2788287, 9, 4], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50034"}
+{"predicted": 140.67345391080622, "id": 50035, "feature": ["mr_job", 1902488, 3, 3], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50035"}
+{"predicted": 144.13671158655086, "id": 50036, "feature": ["mr_job", 1793073, 1, 2], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in10 -output ./50036"}
+{"predicted": 127.12129384816448, "id": 50037, "feature": ["mr_job", 206677, 7, 2], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50037"}
+{"predicted": 145.38184262410758, "id": 50038, "feature": ["mr_job", 1586396, 9, 4], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50038"}
+{"predicted": 161.51495681872376, "id": 50039, "feature": ["mr_job", 3490871, 3, 2], "cpu": 1, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50039"}
+{"predicted": 138.66810223423897, "id": 50040, "feature": ["mr_job", 700597, 5, 2], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50040"}
+{"predicted": 148.62485223490407, "id": 50041, "feature": ["mr_job", 1410555, 9, 2], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50041"}
+{"predicted": 135.71762218977685, "id": 50042, "feature": ["mr_job", 208664, 3, 1], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50042"}
+{"predicted": 125.21376108579244, "id": 50043, "feature": ["mr_job", 2080316, 4, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50043"}
+{"predicted": 143.1217498362085, "id": 50044, "feature": ["mr_job", 3284194, 4, 4], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50044"}
+{"predicted": 134.10211883208746, "id": 50045, "feature": ["mr_job", 1203878, 8, 3], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in9 -output ./50045"}
+{"predicted": 142.72114321593608, "id": 50046, "feature": ["mr_job", 1697798, 7, 1], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50046"}
+{"predicted": 152.29536338378307, "id": 50047, "feature": ["mr_job", 2286993, 4, 4], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50047"}
+{"predicted": 142.21732101357009, "id": 50048, "feature": ["mr_job", 495907, 3, 2], "cpu": 1, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50048"}
+{"predicted": 142.24795657707648, "id": 50049, "feature": ["mr_job", 493920, 7, 3], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50049"}
+{"predicted": 145.38642915292806, "id": 50050, "feature": ["mr_job", 1902488, 7, 3], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50050"}
+{"predicted": 138.91595055941818, "id": 50051, "feature": ["mr_job", 1902488, 4, 1], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50051"}
+{"predicted": 142.28427209522587, "id": 50052, "feature": ["mr_job", 2288980, 9, 2], "cpu": 1, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50052"}
+{"predicted": 131.87648701434188, "id": 50053, "feature": ["mr_job", 2994964, 5, 3], "cpu": 1, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50053"}
+{"predicted": 145.0811920104391, "id": 50054, "feature": ["mr_job", 1201891, 2, 2], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=2 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50054"}
+{"predicted": 152.2278818969373, "id": 50055, "feature": ["mr_job", 3284194, 4, 1], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50055"}
+{"predicted": 139.95675281925895, "id": 50056, "feature": ["mr_job", 495907, 5, 1], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50056"}
+{"predicted": 137.14097660328142, "id": 50057, "feature": ["mr_job", 2288980, 1, 4], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50057"}
+{"predicted": 137.96538186174033, "id": 50058, "feature": ["mr_job", 1695811, 7, 4], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50058"}
+{"predicted": 140.81445257388063, "id": 50059, "feature": ["mr_job", 1586396, 4, 1], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50059"}
+{"predicted": 142.29451375445518, "id": 50060, "feature": ["mr_job", 493920, 10, 1], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50060"}
+{"predicted": 142.26131571580086, "id": 50061, "feature": ["mr_job", 2288980, 9, 3], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50061"}
+{"predicted": 142.37747155421698, "id": 50062, "feature": ["mr_job", 3490871, 10, 3], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50062"}
+{"predicted": 141.56505451979353, "id": 50063, "feature": ["mr_job", 1408568, 5, 4], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in6 -output ./50063"}
+{"predicted": 142.30030007056067, "id": 50064, "feature": ["mr_job", 2996951, 10, 4], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50064"}
+{"predicted": 135.11895956726283, "id": 50065, "feature": ["mr_job", 1902488, 5, 2], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50065"}
+{"predicted": 142.20767844363212, "id": 50066, "feature": ["mr_job", 208664, 7, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50066"}
+{"predicted": 141.8912166421718, "id": 50067, "feature": ["mr_job", 2080316, 1, 2], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50067"}
+{"predicted": 142.23534991197863, "id": 50068, "feature": ["mr_job", 493920, 1, 4], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50068"}
+{"predicted": 137.42318659609865, "id": 50069, "feature": ["mr_job", 1201891, 6, 2], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50069"}
+{"predicted": 142.61459099230575, "id": 50070, "feature": ["mr_job", 2286993, 10, 4], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50070"}
+{"predicted": 142.248606374672, "id": 50071, "feature": ["mr_job", 2288980, 10, 3], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50071"}
+{"predicted": 142.71727224723347, "id": 50072, "feature": ["mr_job", 1697798, 4, 2], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50072"}
+{"predicted": 148.41677060571726, "id": 50073, "feature": ["mr_job", 208664, 5, 1], "cpu": 1, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50073"}
+{"predicted": 140.32292847793983, "id": 50074, "feature": ["mr_job", 1201891, 9, 2], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50074"}
+{"predicted": 132.6968207431053, "id": 50075, "feature": ["mr_job", 1410555, 1, 4], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50075"}
+{"predicted": 139.2790626296782, "id": 50076, "feature": ["mr_job", 3284194, 1, 2], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50076"}
+{"predicted": 136.75706164924597, "id": 50077, "feature": ["mr_job", 1793073, 9, 1], "cpu": 1, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in10 -output ./50077"}
+{"predicted": 142.6805336959358, "id": 50078, "feature": ["mr_job", 700597, 8, 2], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50078"}
+{"predicted": 145.22643134741216, "id": 50079, "feature": ["mr_job", 1795060, 4, 4], "cpu": 2, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50079"}
+{"predicted": 146.83791687598946, "id": 50080, "feature": ["mr_job", 2082303, 6, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50080"}
+{"predicted": 139.96872512939174, "id": 50081, "feature": ["mr_job", 493920, 3, 2], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50081"}
+{"predicted": 131.88120102660278, "id": 50082, "feature": ["mr_job", 1201891, 10, 4], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50082"}
+{"predicted": 139.11595277034002, "id": 50083, "feature": ["mr_job", 3490871, 6, 3], "cpu": 2, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50083"}
+{"predicted": 156.01985973905118, "id": 50084, "feature": ["mr_job", 2082303, 4, 3], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50084"}
+{"predicted": 143.7573528765626, "id": 50085, "feature": ["mr_job", 1902488, 9, 1], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50085"}
+{"predicted": 156.2944446215403, "id": 50086, "feature": ["mr_job", 3488884, 7, 2], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in25 -output ./50086"}
+{"predicted": 142.82625224020674, "id": 50087, "feature": ["mr_job", 2996951, 9, 4], "cpu": 3, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50087"}
+{"predicted": 142.2479538645097, "id": 50088, "feature": ["mr_job", 495907, 1, 4], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50088"}
+{"predicted": 125.88353053585895, "id": 50089, "feature": ["mr_job", 206677, 8, 3], "cpu": 3, "type": "mr_job", "ram": 3, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50089"}
+{"predicted": 148.3280586332889, "id": 50090, "feature": ["mr_job", 2788287, 5, 3], "cpu": 1, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50090"}
+{"predicted": 143.9608708195643, "id": 50091, "feature": ["mr_job", 2790274, 4, 1], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in20 -output ./50091"}
+{"predicted": 146.55279378796737, "id": 50092, "feature": ["mr_job", 2996951, 7, 2], "cpu": 3, "type": "mr_job", "ram": 1, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50092"}
+{"predicted": 143.9608708195643, "id": 50093, "feature": ["mr_job", 2790274, 4, 1], "cpu": 1, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in20 -output ./50093"}
+{"predicted": 133.19153151334262, "id": 50094, "feature": ["mr_job", 1987, 8, 1], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in5 -output ./50094"}
+{"predicted": 139.70124111925676, "id": 50095, "feature": ["mr_job", 1695811, 10, 3], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50095"}
+{"predicted": 132.49360605051612, "id": 50096, "feature": ["mr_job", 1695811, 5, 1], "cpu": 2, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50096"}
+{"predicted": 148.2147494698121, "id": 50097, "feature": ["mr_job", 2286993, 1, 2], "cpu": 2, "type": "mr_job", "ram": 4, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50097"}
+{"predicted": 152.59224330851487, "id": 50098, "feature": ["mr_job", 3284194, 7, 2], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50098"}
+{"predicted": 142.1972027717956, "id": 50099, "feature": ["mr_job", 1201891, 6, 4], "cpu": 3, "type": "mr_job", "ram": 2, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50099"}

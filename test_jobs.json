@@ -1,0 +1,600 @@
+{"ram": 2, "id": 30000, "type": "flask_job", "command": "python flask/test35.py", "cpu": 1}
+{"ram": 1, "id": 30001, "type": "flask_job", "command": "python flask/test15.py", "cpu": 3}
+{"ram": 1, "id": 30002, "type": "flask_job", "command": "python flask/test43.py", "cpu": 2}
+{"ram": 4, "id": 30003, "type": "flask_job", "command": "python flask/test15.py", "cpu": 3}
+{"ram": 4, "id": 30004, "type": "flask_job", "command": "python flask/test51.py", "cpu": 1}
+{"ram": 1, "id": 30005, "type": "flask_job", "command": "python flask/test33.py", "cpu": 2}
+{"ram": 2, "id": 30006, "type": "flask_job", "command": "python flask/test53.py", "cpu": 3}
+{"ram": 2, "id": 30007, "type": "flask_job", "command": "python flask/test13.py", "cpu": 1}
+{"ram": 2, "id": 30008, "type": "flask_job", "command": "python flask/test55.py", "cpu": 1}
+{"ram": 3, "id": 30009, "type": "flask_job", "command": "python flask/test31.py", "cpu": 3}
+{"ram": 1, "id": 30010, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 3, "id": 30011, "type": "flask_job", "command": "python flask/test55.py", "cpu": 2}
+{"ram": 2, "id": 30012, "type": "flask_job", "command": "python flask/test41.py", "cpu": 3}
+{"ram": 1, "id": 30013, "type": "flask_job", "command": "python flask/test43.py", "cpu": 3}
+{"ram": 4, "id": 30014, "type": "flask_job", "command": "python flask/test44.py", "cpu": 2}
+{"ram": 3, "id": 30015, "type": "flask_job", "command": "python flask/test31.py", "cpu": 3}
+{"ram": 4, "id": 30016, "type": "flask_job", "command": "python flask/test33.py", "cpu": 3}
+{"ram": 2, "id": 30017, "type": "flask_job", "command": "python flask/test55.py", "cpu": 3}
+{"ram": 1, "id": 30018, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 1, "id": 30019, "type": "flask_job", "command": "python flask/test12.py", "cpu": 2}
+{"ram": 3, "id": 30020, "type": "flask_job", "command": "python flask/test44.py", "cpu": 1}
+{"ram": 3, "id": 30021, "type": "flask_job", "command": "python flask/test13.py", "cpu": 1}
+{"ram": 2, "id": 30022, "type": "flask_job", "command": "python flask/test44.py", "cpu": 1}
+{"ram": 4, "id": 30023, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 3, "id": 30024, "type": "flask_job", "command": "python flask/test45.py", "cpu": 2}
+{"ram": 1, "id": 30025, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 4, "id": 30026, "type": "flask_job", "command": "python flask/test24.py", "cpu": 3}
+{"ram": 1, "id": 30027, "type": "flask_job", "command": "python flask/test13.py", "cpu": 2}
+{"ram": 1, "id": 30028, "type": "flask_job", "command": "python flask/test43.py", "cpu": 3}
+{"ram": 1, "id": 30029, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 3, "id": 30030, "type": "flask_job", "command": "python flask/test25.py", "cpu": 3}
+{"ram": 2, "id": 30031, "type": "flask_job", "command": "python flask/test14.py", "cpu": 1}
+{"ram": 2, "id": 30032, "type": "flask_job", "command": "python flask/test33.py", "cpu": 2}
+{"ram": 2, "id": 30033, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 3, "id": 30034, "type": "flask_job", "command": "python flask/test41.py", "cpu": 3}
+{"ram": 1, "id": 30035, "type": "flask_job", "command": "python flask/test24.py", "cpu": 2}
+{"ram": 4, "id": 30036, "type": "flask_job", "command": "python flask/test41.py", "cpu": 2}
+{"ram": 1, "id": 30037, "type": "flask_job", "command": "python flask/test11.py", "cpu": 2}
+{"ram": 3, "id": 30038, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 3, "id": 30039, "type": "flask_job", "command": "python flask/test54.py", "cpu": 1}
+{"ram": 1, "id": 30040, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 1, "id": 30041, "type": "flask_job", "command": "python flask/test44.py", "cpu": 1}
+{"ram": 1, "id": 30042, "type": "flask_job", "command": "python flask/test13.py", "cpu": 1}
+{"ram": 2, "id": 30043, "type": "flask_job", "command": "python flask/test11.py", "cpu": 3}
+{"ram": 1, "id": 30044, "type": "flask_job", "command": "python flask/test14.py", "cpu": 2}
+{"ram": 1, "id": 30045, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 3, "id": 30046, "type": "flask_job", "command": "python flask/test51.py", "cpu": 3}
+{"ram": 2, "id": 30047, "type": "flask_job", "command": "python flask/test31.py", "cpu": 3}
+{"ram": 3, "id": 30048, "type": "flask_job", "command": "python flask/test34.py", "cpu": 2}
+{"ram": 2, "id": 30049, "type": "flask_job", "command": "python flask/test45.py", "cpu": 2}
+{"ram": 4, "id": 30050, "type": "flask_job", "command": "python flask/test51.py", "cpu": 1}
+{"ram": 4, "id": 30051, "type": "flask_job", "command": "python flask/test53.py", "cpu": 1}
+{"ram": 2, "id": 30052, "type": "flask_job", "command": "python flask/test14.py", "cpu": 1}
+{"ram": 1, "id": 30053, "type": "flask_job", "command": "python flask/test55.py", "cpu": 3}
+{"ram": 3, "id": 30054, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 2, "id": 30055, "type": "flask_job", "command": "python flask/test33.py", "cpu": 2}
+{"ram": 4, "id": 30056, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 3, "id": 30057, "type": "flask_job", "command": "python flask/test31.py", "cpu": 1}
+{"ram": 3, "id": 30058, "type": "flask_job", "command": "python flask/test45.py", "cpu": 3}
+{"ram": 4, "id": 30059, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 2, "id": 30060, "type": "flask_job", "command": "python flask/test35.py", "cpu": 1}
+{"ram": 4, "id": 30061, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 1, "id": 30062, "type": "flask_job", "command": "python flask/test55.py", "cpu": 2}
+{"ram": 3, "id": 30063, "type": "flask_job", "command": "python flask/test12.py", "cpu": 2}
+{"ram": 1, "id": 30064, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 2, "id": 30065, "type": "flask_job", "command": "python flask/test45.py", "cpu": 3}
+{"ram": 1, "id": 30066, "type": "flask_job", "command": "python flask/test34.py", "cpu": 2}
+{"ram": 1, "id": 30067, "type": "flask_job", "command": "python flask/test43.py", "cpu": 3}
+{"ram": 2, "id": 30068, "type": "flask_job", "command": "python flask/test15.py", "cpu": 1}
+{"ram": 2, "id": 30069, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 2, "id": 30070, "type": "flask_job", "command": "python flask/test41.py", "cpu": 3}
+{"ram": 1, "id": 30071, "type": "flask_job", "command": "python flask/test11.py", "cpu": 2}
+{"ram": 4, "id": 30072, "type": "flask_job", "command": "python flask/test34.py", "cpu": 2}
+{"ram": 3, "id": 30073, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 2, "id": 30074, "type": "flask_job", "command": "python flask/test25.py", "cpu": 2}
+{"ram": 3, "id": 30075, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 3, "id": 30076, "type": "flask_job", "command": "python flask/test53.py", "cpu": 2}
+{"ram": 4, "id": 30077, "type": "flask_job", "command": "python flask/test45.py", "cpu": 1}
+{"ram": 4, "id": 30078, "type": "flask_job", "command": "python flask/test21.py", "cpu": 1}
+{"ram": 2, "id": 30079, "type": "flask_job", "command": "python flask/test23.py", "cpu": 2}
+{"ram": 1, "id": 30080, "type": "flask_job", "command": "python flask/test12.py", "cpu": 2}
+{"ram": 2, "id": 30081, "type": "flask_job", "command": "python flask/test11.py", "cpu": 1}
+{"ram": 3, "id": 30082, "type": "flask_job", "command": "python flask/test14.py", "cpu": 1}
+{"ram": 2, "id": 30083, "type": "flask_job", "command": "python flask/test13.py", "cpu": 1}
+{"ram": 4, "id": 30084, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 4, "id": 30085, "type": "flask_job", "command": "python flask/test21.py", "cpu": 2}
+{"ram": 3, "id": 30086, "type": "flask_job", "command": "python flask/test54.py", "cpu": 2}
+{"ram": 2, "id": 30087, "type": "flask_job", "command": "python flask/test44.py", "cpu": 1}
+{"ram": 2, "id": 30088, "type": "flask_job", "command": "python flask/test44.py", "cpu": 1}
+{"ram": 3, "id": 30089, "type": "flask_job", "command": "python flask/test35.py", "cpu": 1}
+{"ram": 2, "id": 30090, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 4, "id": 30091, "type": "flask_job", "command": "python flask/test51.py", "cpu": 3}
+{"ram": 2, "id": 30092, "type": "flask_job", "command": "python flask/test54.py", "cpu": 3}
+{"ram": 3, "id": 30093, "type": "flask_job", "command": "python flask/test21.py", "cpu": 3}
+{"ram": 2, "id": 30094, "type": "flask_job", "command": "python flask/test11.py", "cpu": 1}
+{"ram": 2, "id": 30095, "type": "flask_job", "command": "python flask/test12.py", "cpu": 3}
+{"ram": 2, "id": 30096, "type": "flask_job", "command": "python flask/test54.py", "cpu": 1}
+{"ram": 4, "id": 30097, "type": "flask_job", "command": "python flask/test43.py", "cpu": 3}
+{"ram": 3, "id": 30098, "type": "flask_job", "command": "python flask/test54.py", "cpu": 2}
+{"ram": 1, "id": 30099, "type": "flask_job", "command": "python flask/test14.py", "cpu": 3}
+{"ram": 1, "id": 30100, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 4, "id": 30101, "type": "flask_job", "command": "python flask/test25.py", "cpu": 1}
+{"ram": 2, "id": 30102, "type": "flask_job", "command": "python flask/test12.py", "cpu": 3}
+{"ram": 2, "id": 30103, "type": "flask_job", "command": "python flask/test11.py", "cpu": 1}
+{"ram": 2, "id": 30104, "type": "flask_job", "command": "python flask/test14.py", "cpu": 3}
+{"ram": 1, "id": 30105, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 2, "id": 30106, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 2, "id": 30107, "type": "flask_job", "command": "python flask/test45.py", "cpu": 1}
+{"ram": 2, "id": 30108, "type": "flask_job", "command": "python flask/test12.py", "cpu": 3}
+{"ram": 2, "id": 30109, "type": "flask_job", "command": "python flask/test25.py", "cpu": 1}
+{"ram": 1, "id": 30110, "type": "flask_job", "command": "python flask/test33.py", "cpu": 3}
+{"ram": 2, "id": 30111, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 3, "id": 30112, "type": "flask_job", "command": "python flask/test25.py", "cpu": 3}
+{"ram": 1, "id": 30113, "type": "flask_job", "command": "python flask/test23.py", "cpu": 1}
+{"ram": 3, "id": 30114, "type": "flask_job", "command": "python flask/test35.py", "cpu": 2}
+{"ram": 3, "id": 30115, "type": "flask_job", "command": "python flask/test11.py", "cpu": 3}
+{"ram": 1, "id": 30116, "type": "flask_job", "command": "python flask/test51.py", "cpu": 1}
+{"ram": 2, "id": 30117, "type": "flask_job", "command": "python flask/test13.py", "cpu": 3}
+{"ram": 4, "id": 30118, "type": "flask_job", "command": "python flask/test35.py", "cpu": 2}
+{"ram": 3, "id": 30119, "type": "flask_job", "command": "python flask/test53.py", "cpu": 1}
+{"ram": 1, "id": 30120, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 1, "id": 30121, "type": "flask_job", "command": "python flask/test25.py", "cpu": 1}
+{"ram": 2, "id": 30122, "type": "flask_job", "command": "python flask/test44.py", "cpu": 3}
+{"ram": 2, "id": 30123, "type": "flask_job", "command": "python flask/test43.py", "cpu": 3}
+{"ram": 4, "id": 30124, "type": "flask_job", "command": "python flask/test54.py", "cpu": 2}
+{"ram": 2, "id": 30125, "type": "flask_job", "command": "python flask/test25.py", "cpu": 2}
+{"ram": 3, "id": 30126, "type": "flask_job", "command": "python flask/test33.py", "cpu": 1}
+{"ram": 1, "id": 30127, "type": "flask_job", "command": "python flask/test15.py", "cpu": 1}
+{"ram": 1, "id": 30128, "type": "flask_job", "command": "python flask/test23.py", "cpu": 1}
+{"ram": 4, "id": 30129, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 2, "id": 30130, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 3, "id": 30131, "type": "flask_job", "command": "python flask/test35.py", "cpu": 1}
+{"ram": 2, "id": 30132, "type": "flask_job", "command": "python flask/test45.py", "cpu": 3}
+{"ram": 2, "id": 30133, "type": "flask_job", "command": "python flask/test14.py", "cpu": 1}
+{"ram": 2, "id": 30134, "type": "flask_job", "command": "python flask/test33.py", "cpu": 2}
+{"ram": 4, "id": 30135, "type": "flask_job", "command": "python flask/test35.py", "cpu": 3}
+{"ram": 2, "id": 30136, "type": "flask_job", "command": "python flask/test41.py", "cpu": 1}
+{"ram": 4, "id": 30137, "type": "flask_job", "command": "python flask/test12.py", "cpu": 1}
+{"ram": 2, "id": 30138, "type": "flask_job", "command": "python flask/test31.py", "cpu": 1}
+{"ram": 4, "id": 30139, "type": "flask_job", "command": "python flask/test24.py", "cpu": 3}
+{"ram": 2, "id": 30140, "type": "flask_job", "command": "python flask/test31.py", "cpu": 3}
+{"ram": 4, "id": 30141, "type": "flask_job", "command": "python flask/test55.py", "cpu": 2}
+{"ram": 4, "id": 30142, "type": "flask_job", "command": "python flask/test24.py", "cpu": 1}
+{"ram": 4, "id": 30143, "type": "flask_job", "command": "python flask/test54.py", "cpu": 3}
+{"ram": 1, "id": 30144, "type": "flask_job", "command": "python flask/test21.py", "cpu": 2}
+{"ram": 3, "id": 30145, "type": "flask_job", "command": "python flask/test34.py", "cpu": 2}
+{"ram": 2, "id": 30146, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 1, "id": 30147, "type": "flask_job", "command": "python flask/test13.py", "cpu": 3}
+{"ram": 1, "id": 30148, "type": "flask_job", "command": "python flask/test14.py", "cpu": 1}
+{"ram": 2, "id": 30149, "type": "flask_job", "command": "python flask/test35.py", "cpu": 1}
+{"ram": 1, "id": 30150, "type": "flask_job", "command": "python flask/test24.py", "cpu": 2}
+{"ram": 2, "id": 30151, "type": "flask_job", "command": "python flask/test23.py", "cpu": 2}
+{"ram": 4, "id": 30152, "type": "flask_job", "command": "python flask/test12.py", "cpu": 3}
+{"ram": 1, "id": 30153, "type": "flask_job", "command": "python flask/test14.py", "cpu": 2}
+{"ram": 2, "id": 30154, "type": "flask_job", "command": "python flask/test31.py", "cpu": 3}
+{"ram": 3, "id": 30155, "type": "flask_job", "command": "python flask/test25.py", "cpu": 3}
+{"ram": 1, "id": 30156, "type": "flask_job", "command": "python flask/test51.py", "cpu": 3}
+{"ram": 3, "id": 30157, "type": "flask_job", "command": "python flask/test35.py", "cpu": 2}
+{"ram": 4, "id": 30158, "type": "flask_job", "command": "python flask/test24.py", "cpu": 3}
+{"ram": 1, "id": 30159, "type": "flask_job", "command": "python flask/test44.py", "cpu": 2}
+{"ram": 3, "id": 30160, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 2, "id": 30161, "type": "flask_job", "command": "python flask/test35.py", "cpu": 2}
+{"ram": 3, "id": 30162, "type": "flask_job", "command": "python flask/test24.py", "cpu": 3}
+{"ram": 4, "id": 30163, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 3, "id": 30164, "type": "flask_job", "command": "python flask/test35.py", "cpu": 3}
+{"ram": 3, "id": 30165, "type": "flask_job", "command": "python flask/test21.py", "cpu": 2}
+{"ram": 4, "id": 30166, "type": "flask_job", "command": "python flask/test25.py", "cpu": 2}
+{"ram": 3, "id": 30167, "type": "flask_job", "command": "python flask/test14.py", "cpu": 2}
+{"ram": 3, "id": 30168, "type": "flask_job", "command": "python flask/test25.py", "cpu": 2}
+{"ram": 1, "id": 30169, "type": "flask_job", "command": "python flask/test44.py", "cpu": 3}
+{"ram": 4, "id": 30170, "type": "flask_job", "command": "python flask/test51.py", "cpu": 1}
+{"ram": 1, "id": 30171, "type": "flask_job", "command": "python flask/test35.py", "cpu": 3}
+{"ram": 4, "id": 30172, "type": "flask_job", "command": "python flask/test13.py", "cpu": 3}
+{"ram": 2, "id": 30173, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 4, "id": 30174, "type": "flask_job", "command": "python flask/test13.py", "cpu": 1}
+{"ram": 4, "id": 30175, "type": "flask_job", "command": "python flask/test12.py", "cpu": 2}
+{"ram": 4, "id": 30176, "type": "flask_job", "command": "python flask/test24.py", "cpu": 1}
+{"ram": 2, "id": 30177, "type": "flask_job", "command": "python flask/test51.py", "cpu": 3}
+{"ram": 3, "id": 30178, "type": "flask_job", "command": "python flask/test43.py", "cpu": 1}
+{"ram": 1, "id": 30179, "type": "flask_job", "command": "python flask/test24.py", "cpu": 2}
+{"ram": 1, "id": 30180, "type": "flask_job", "command": "python flask/test21.py", "cpu": 3}
+{"ram": 3, "id": 30181, "type": "flask_job", "command": "python flask/test11.py", "cpu": 3}
+{"ram": 4, "id": 30182, "type": "flask_job", "command": "python flask/test34.py", "cpu": 3}
+{"ram": 3, "id": 30183, "type": "flask_job", "command": "python flask/test15.py", "cpu": 2}
+{"ram": 2, "id": 30184, "type": "flask_job", "command": "python flask/test21.py", "cpu": 2}
+{"ram": 3, "id": 30185, "type": "flask_job", "command": "python flask/test54.py", "cpu": 1}
+{"ram": 1, "id": 30186, "type": "flask_job", "command": "python flask/test51.py", "cpu": 3}
+{"ram": 3, "id": 30187, "type": "flask_job", "command": "python flask/test53.py", "cpu": 1}
+{"ram": 1, "id": 30188, "type": "flask_job", "command": "python flask/test51.py", "cpu": 1}
+{"ram": 2, "id": 30189, "type": "flask_job", "command": "python flask/test33.py", "cpu": 1}
+{"ram": 3, "id": 30190, "type": "flask_job", "command": "python flask/test45.py", "cpu": 3}
+{"ram": 2, "id": 30191, "type": "flask_job", "command": "python flask/test13.py", "cpu": 2}
+{"ram": 4, "id": 30192, "type": "flask_job", "command": "python flask/test13.py", "cpu": 2}
+{"ram": 3, "id": 30193, "type": "flask_job", "command": "python flask/test24.py", "cpu": 1}
+{"ram": 2, "id": 30194, "type": "flask_job", "command": "python flask/test25.py", "cpu": 3}
+{"ram": 4, "id": 30195, "type": "flask_job", "command": "python flask/test25.py", "cpu": 2}
+{"ram": 3, "id": 30196, "type": "flask_job", "command": "python flask/test21.py", "cpu": 2}
+{"ram": 1, "id": 30197, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"ram": 4, "id": 30198, "type": "flask_job", "command": "python flask/test34.py", "cpu": 1}
+{"ram": 4, "id": 30199, "type": "flask_job", "command": "python flask/test31.py", "cpu": 2}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6000}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6001}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 2, "id": 6002}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6003}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6004}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 2, "id": 6005}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6006}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6007}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6008}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6009}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6010}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6011}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 1, "id": 6012}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 4, "id": 6013}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 3, "id": 6014}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6015}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 3, "id": 6016}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6017}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6018}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6019}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 2, "id": 6020}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6021}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6022}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6023}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6024}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6025}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6026}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6027}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6028}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6029}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6030}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6031}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6032}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 1, "id": 6033}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 1, "id": 6034}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6035}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 2, "id": 6036}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6037}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6038}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6039}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6040}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6041}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6042}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6043}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6044}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6045}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6046}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 3, "id": 6047}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6048}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6049}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6050}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6051}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6052}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6053}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6054}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6055}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6056}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 3, "id": 6057}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 4, "id": 6058}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6059}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6060}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6061}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6062}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6063}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6064}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6065}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6066}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 1, "id": 6067}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6068}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 4, "id": 6069}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6070}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6071}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6072}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6073}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6074}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 4, "id": 6075}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6076}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6077}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6078}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6079}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6080}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6081}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 1, "id": 6082}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6083}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6084}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 4, "id": 6085}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6086}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6087}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6088}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6089}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6090}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6091}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6092}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6093}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6094}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 1, "id": 6095}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6096}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6097}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 1, "id": 6098}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6099}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 2, "id": 6100}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 4, "id": 6101}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6102}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6103}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6104}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6105}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6106}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6107}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6108}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6109}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6110}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6111}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6112}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6113}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6114}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 1, "id": 6115}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6116}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6117}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 3, "id": 6118}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6119}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6120}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 3, "id": 6121}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 4, "id": 6122}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6123}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6124}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 1, "id": 6125}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 1, "id": 6126}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6127}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 4, "id": 6128}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 3, "id": 6129}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6130}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 1, "id": 6131}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6132}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6133}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 1, "id": 6134}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6135}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6136}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6137}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 3, "id": 6138}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6139}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6140}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6141}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6142}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 1, "id": 6143}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6144}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6145}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6146}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6147}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 3, "id": 6148}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 4, "id": 6149}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 1, "id": 6150}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6151}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6152}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 1, "id": 6153}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6154}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6155}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6156}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 2, "id": 6157}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6158}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6159}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 1, "id": 6160}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6161}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6162}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6163}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6164}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6165}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 1, "id": 6166}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6167}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6168}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 4, "id": 6169}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6170}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 1, "id": 6171}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6172}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 4, "id": 6173}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6174}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6175}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6176}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 1, "id": 6177}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6178}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6179}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6180}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 2, "id": 6181}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6182}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6183}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6184}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6185}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 4, "id": 6186}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6187}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6188}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 2, "id": 6189}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 2, "id": 6190}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6191}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 3, "id": 6192}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6193}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6194}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6195}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6196}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 4, "id": 6197}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6198}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6199}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6200}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 4, "id": 6201}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 3, "id": 6202}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6203}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6204}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6205}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 3, "id": 6206}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6207}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 2, "id": 6208}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6209}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6210}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6211}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6212}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6213}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 1, "id": 6214}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6215}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 2, "id": 6216}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 1, "id": 6217}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6218}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 2, "id": 6219}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 4, "id": 6220}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6221}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6222}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 3, "id": 6223}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6224}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6225}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 1, "id": 6226}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6227}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6228}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 4, "id": 6229}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 1, "id": 6230}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6231}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 1, "id": 6232}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 4, "id": 6233}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6234}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6235}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 2, "id": 6236}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 2, "id": 6237}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6238}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6239}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 2, "id": 6240}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6241}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 1, "id": 6242}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6243}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6244}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6245}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6246}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6247}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 1, "id": 6248}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 1, "id": 6249}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6250}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6251}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 1, "id": 6252}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6253}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 3, "id": 6254}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 2, "id": 6255}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6256}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 4, "id": 6257}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 2, "id": 6258}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6259}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 1, "id": 6260}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 4, "id": 6261}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6262}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 3, "id": 6263}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6264}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 1, "id": 6265}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 3, "id": 6266}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 2, "id": 6267}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6268}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 2, "id": 6269}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 4, "id": 6270}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 3, "id": 6271}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6272}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6273}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6274}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 4, "id": 6275}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 2, "ram": 3, "id": 6276}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 4, "id": 6277}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 3, "ram": 3, "id": 6278}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 4, "id": 6279}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 3, "id": 6280}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6281}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 1, "ram": 1, "id": 6282}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 4, "id": 6283}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6284}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 1, "id": 6285}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 1, "id": 6286}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 4, "id": 6287}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 3, "id": 6288}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6289}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 1, "ram": 2, "id": 6290}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 3, "ram": 1, "id": 6291}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 2, "ram": 2, "id": 6292}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 3, "ram": 3, "id": 6293}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 1, "ram": 4, "id": 6294}
+{"type": "ml", "command": "python ml.py --dataset cancer", "cpu": 2, "ram": 2, "id": 6295}
+{"type": "ml", "command": "python ml.py --dataset iris", "cpu": 1, "ram": 3, "id": 6296}
+{"type": "ml", "command": "python ml.py --dataset mnist", "cpu": 2, "ram": 2, "id": 6297}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 3, "id": 6298}
+{"type": "ml", "command": "python ml.py --dataset wine", "cpu": 3, "ram": 2, "id": 6299}
+{"id": 50000, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50000", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50001, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50001", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50002, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50002", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50003, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=2 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50003", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50004, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50004", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50005, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50005", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50006, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50006", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50007, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50007", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50008, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in5 -output ./50008", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50009, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50009", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50010, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in14 -output ./50010", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50011, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50011", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50012, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50012", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50013, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50013", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50014, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50014", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50015, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50015", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50016, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in14 -output ./50016", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50017, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in6 -output ./50017", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50018, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50018", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50019, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50019", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50020, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in28 -output ./50020", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50021, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50021", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50022, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50022", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50023, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50023", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50024, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50024", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50025, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50025", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50026, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50026", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50027, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50027", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50028, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50028", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50029, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50029", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50030, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50030", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50031, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50031", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50032, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50032", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50033, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50033", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50034, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50034", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50035, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50035", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50036, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in10 -output ./50036", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50037, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50037", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50038, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50038", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50039, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50039", "ram": 3, "type": "mr_job", "cpu": 1}
+{"id": 50040, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50040", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50041, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50041", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50042, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50042", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50043, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50043", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50044, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50044", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50045, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in9 -output ./50045", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50046, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50046", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50047, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50047", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50048, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50048", "ram": 3, "type": "mr_job", "cpu": 1}
+{"id": 50049, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50049", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50050, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50050", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50051, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50051", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50052, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50052", "ram": 3, "type": "mr_job", "cpu": 1}
+{"id": 50053, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in16 -output ./50053", "ram": 3, "type": "mr_job", "cpu": 1}
+{"id": 50054, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=2 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50054", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50055, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50055", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50056, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50056", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50057, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50057", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50058, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50058", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50059, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in4 -output ./50059", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50060, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50060", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50061, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50061", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50062, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50062", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50063, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in6 -output ./50063", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50064, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50064", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50065, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50065", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50066, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50066", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50067, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in13 -output ./50067", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50068, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50068", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50069, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50069", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50070, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50070", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50071, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in29 -output ./50071", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50072, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in21 -output ./50072", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50073, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in12 -output ./50073", "ram": 1, "type": "mr_job", "cpu": 1}
+{"id": 50074, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50074", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50075, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in18 -output ./50075", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50076, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50076", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50077, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in10 -output ./50077", "ram": 3, "type": "mr_job", "cpu": 1}
+{"id": 50078, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in11 -output ./50078", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50079, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in23 -output ./50079", "ram": 1, "type": "mr_job", "cpu": 2}
+{"id": 50080, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50080", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50081, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=3 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in3 -output ./50081", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50082, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50082", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50083, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in30 -output ./50083", "ram": 3, "type": "mr_job", "cpu": 2}
+{"id": 50084, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in24 -output ./50084", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50085, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in17 -output ./50085", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50086, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in25 -output ./50086", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50087, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=9 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50087", "ram": 4, "type": "mr_job", "cpu": 3}
+{"id": 50088, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in15 -output ./50088", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50089, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in1 -output ./50089", "ram": 3, "type": "mr_job", "cpu": 3}
+{"id": 50090, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in7 -output ./50090", "ram": 2, "type": "mr_job", "cpu": 1}
+{"id": 50091, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in20 -output ./50091", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50092, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in26 -output ./50092", "ram": 1, "type": "mr_job", "cpu": 3}
+{"id": 50093, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=4 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in20 -output ./50093", "ram": 4, "type": "mr_job", "cpu": 1}
+{"id": 50094, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=8 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in5 -output ./50094", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50095, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=10 -D mapred.reduce.tasks=3 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50095", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50096, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=5 -D mapred.reduce.tasks=1 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in8 -output ./50096", "ram": 2, "type": "mr_job", "cpu": 2}
+{"id": 50097, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=1 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in22 -output ./50097", "ram": 4, "type": "mr_job", "cpu": 2}
+{"id": 50098, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=7 -D mapred.reduce.tasks=2 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in27 -output ./50098", "ram": 2, "type": "mr_job", "cpu": 3}
+{"id": 50099, "command": "/usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.2.jar -D mapred.map.tasks=6 -D mapred.reduce.tasks=4 -mapper MapReduce/mapper.py -reducer MapReduce/reducer.py -input MapReduce/input/in2 -output ./50099", "ram": 2, "type": "mr_job", "cpu": 3}
