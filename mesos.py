@@ -201,7 +201,6 @@ def main():
 		request_dict[2] = []
 		request_dict[3] = []
 		request_dict[4] = []
-	threading.Thread(target = master_func, args = (request_dict,)).start()
 
 
 	global job_count
@@ -226,5 +225,6 @@ def main():
 		else:
 			threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 
+	threading.Thread(target = master_func, args = (request_dict,)).start()
 if __name__ == '__main__':
 	main()
