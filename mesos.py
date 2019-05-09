@@ -22,7 +22,7 @@ logging.basicConfig(filename='output.log',format='%(asctime)s %(message)s', date
 
 job_count = 0
 total_jobs = 0
-scheduling_alg = 0
+scheduling_alg = 1
 job_features = {}
 
 csv_file_name = 'output.csv'
@@ -135,7 +135,7 @@ def master_func(request_dict):
 					resource_utilizations[1] -= data['ram']
 					userUtilization[data['user_id']][0] -= data['cpu']
 					userUtilization[data['user_id']][1] -= data['ram']
-					dominant_shares[data['user_id']] = np.max(userUtilization[data['user_id']] / resource_caps)
+					userDomShares[data['user_id']] = np.max(userUtilization[data['user_id']] / resource_caps)
 					if job_count == 0:
 						break
 				else:
