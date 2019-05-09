@@ -35,8 +35,6 @@ throughput_file_name = 'throughput.log'
 throughput_file = open(throughput_file_name, 'w+')
 
 def getUserDemand(userID, request_dict):
-	#print(userID)
-	print(request_dict)
 	if not request_dict[userID]:
 		return None
 	return request_dict[userID][0][0:1]
@@ -44,14 +42,9 @@ def getUserDemand(userID, request_dict):
 def dominantResourceFairness(resource_caps, resource_util, dominant_shares, utils, request_dict):
 #do argument sort to order dom shares ascending
 	sorted_dom_shares = np.argsort(dominant_shares)
-	#print(sorted_dom_shares)
 	#check each user to see if we can service their next request
-	print("SORTED DOM SHARES IS ")
-	print(sorted_dom_shares)
 	for i in sorted_dom_shares:
 		userDemand = getUserDemand(i, request_dict)
-		print(i)
-		print(userDemand)
 		if not userDemand:
             #if this user doesn't have any current requests,
             #move to the next guy
@@ -63,7 +56,6 @@ def dominantResourceFairness(resource_caps, resource_util, dominant_shares, util
 			resource_util += userDemand
 			utils[i] += userDemand
 			dominant_shares[i] = np.max(utils[i] / resource_caps)
-			#print(i, resource_util, utils, dominant_shares)
 			return True, resource_caps, resource_util, dominant_shares, utils, userDemand, i #return success and updated params
     #if no request can be serviced currently, return failure and the old parameters
 	return False, resource_caps, resource_util, dominant_shares, utils, None, None
@@ -72,17 +64,12 @@ def shortestJobFirst(resource_caps, request_dict):
     request_over = list(request_dict.values())
     request_list = request_over[0]
     #sort jobs according to reported predicted job time (ascending)
-    sorted_requests = sorted(request_list, key=lambda x: x[5]) ########################
-    ############Need to change this to reflect that we're sorting according to reported predicted job time
-    print(sorted_requests)
+    sorted_requests = sorted(request_list, key=lambda x: x[5])
     #loop through all (sorted) requests
     for request in sorted_requests:
         #for this request, if all of it's resource constraints (omit job time)
         #can be serviced, then run this job
-        print("REQUEST IN SJF IS ")
-        print(request)
         if np.all(request[0:2] <= resource_caps):
-            #if np.all(request[:-1] <= resource_caps):
             return True, request
         
     #if no request can be serviced, return failure and None for the request we're servicing
@@ -123,9 +110,6 @@ def master_func(request_dict):
 		s.settimeout(8)
 		try:
 			data = s.recv(1024)
-			print (len(data))
-			print(data)
-			print (pickle.loads(data))
 			if len(data) > 0:
 				# data = s.recv(1024)
 				data = pickle.loads(data)
@@ -136,20 +120,17 @@ def master_func(request_dict):
 					agent_resources[agent_ID]["cpu"] += data["cpu"]
 					agent_resources[agent_ID]["ram"] += data["ram"]
 					#print("receive agent stuff %d ", data["job_runtime"])
-					print("DATA IS HERE %d %d %f" % (data['id'], data['agent_id'], data['job_runtime']))
+					#print("DATA IS HERE %d %d %f" % (data['id'], data['agent_id'], data['job_runtime']))
 					log_str = "agent id: " + str(data['agent_id']) + " Job Runtime: " + str(data['job_runtime']) + " Framework Type: " \
 					+ str(data["type"]) + " cpu: " + str(data["cpu"]) + " ram: " + str(data["ram"])  
 					#logging.DEBUG(log_str)
 					job_count -= 1
 					log_file.write(log_str + "\n")
 					log_file.flush()
-					print("BEFORE CSV WORKING")
 					csv_str = str(data['id']) + ',' + str(data['agent_id']) + ',' + str(data['ram']) + ',' + \
 					str(data['cpu']) + ',' + str(data['type']) + ',' + str(data['job_runtime']) + "," + str(job_features[data['id']])
-					print("AFTER CSV WORKING")
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
-					print("AFTER CSV WROTE")
 					print("JOB COUNT IS " + str(job_count))
 					if job_count == 0:
 						break
@@ -168,17 +149,13 @@ def master_func(request_dict):
 			agent_ram = v["ram"]
 			resource_offers.append( [k, agent_cpu, agent_ram])
 
-		print(resource_offers)
+		#print(resource_offers)
 		numUsers = 2
-		#resource_utilizations = np.zeros(2)
-		#userUtilization = np.zeros((5, 2))
-		#userDomShares = np.zeros((5))
 		resource_caps = [0, 0]
 		for resource in resource_offers:
 			resource_caps[0] += resource[1]
 			resource_caps[1] += resource[2]
 
-		#resource_caps = [29, 85]
 		if scheduling_alg == 0:
 			[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
 			resource_utilizations = resource_util
@@ -188,8 +165,6 @@ def master_func(request_dict):
 		elif scheduling_alg == 1:
 			[success, request] = shortestJobFirst(resource_caps, request_dict)
 			val = list(request_dict.values())
-			print("THE REQUEST AFTER SJF IS ")
-			print(request)
 			i = 0
 			for value in val:
 				idx = 0
@@ -205,7 +180,7 @@ def master_func(request_dict):
 		if success:
 			for k, v in agent_resources.items():
 				if agent_resources[k]["cpu"] >= request_dict[i][job_i][0] and agent_resources[k]["ram"] >= request_dict[i][job_i][1]:
-					print("send " + str(request_dict[i][job_i][2]) + " cpu " + str(request_dict[i][job_i][0]) + " ram " + str(request_dict[i][job_i][1]))
+					print("send job # " + str(request_dict[i][job_i][2]) + " cpu " + str(request_dict[i][job_i][0]) + " ram " + str(request_dict[i][job_i][1]))
 					#ack = -1
 					#while ack != request_dict[i][0][2]:
 					# Remove
@@ -279,14 +254,12 @@ def main():
 		job = json.loads(job)
 		job_features[job["id"]] = job["feature"]
 
-	for job in data:
-		print(job)		
+	for job in data:	
 		job = json.loads(job)
 		r1 = random.randint(0,4)
 		if scheduling_alg == 0:
 			threading.Thread(target = job_func, args=(request_dict, r1, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 		else:
-			print("Why i enter here")
 			threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 
 if __name__ == '__main__':
