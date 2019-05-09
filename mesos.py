@@ -216,7 +216,7 @@ def main():
 	global job_count
 	global total_jobs
 	global job_features 
-	f = open("data_final.json", "r")
+	f = open("test_jobs_final.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
 	#counting number of jobs
