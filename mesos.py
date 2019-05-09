@@ -36,6 +36,8 @@ throughput_file = open(throughput_file_name, 'w+')
 agent_id_map = {}
 
 
+user_job_dict = {}
+
 def getUserDemand(userID, request_dict):
 	#print(userID)
 	#print(request_dict)
@@ -103,7 +105,7 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 def job_func(request_dict, user, cpus, memory, jobID, command, type, predicted):
 	request_dict[user].append([cpus, memory, jobID, command, type, predicted])
 
-HOST = '10.194.77.66'
+HOST = '0.0.0.0'
 PORT = 8000
 PORT_2 = 8001
 
@@ -113,6 +115,9 @@ def master_func(request_dict):
 	s.connect((HOST, PORT))
 	s2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s2.connect((HOST, PORT_2))
+	resource_utilizations = np.zeros(2)
+	userUtilization = np.zeros((5, 2))
+	userDomShares = np.zeros((5))
 	global job_count
 	global total_jobs
 	start = time.time()
@@ -149,6 +154,14 @@ def master_func(request_dict):
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
 					#print("AFTER CSV WROTE")
+					job_id = data['id']
+					user_id = user_job_dict[job_id]
+					print("JOB COUNT IS " + str(job_count))
+					resource_utilizations[0] -= data['cpu']
+					resource_utilizations[1] -= data['ram']
+					userUtilization[user_id][0] -= data['cpu']
+					userUtilization[user_id][1] -= data['ram']
+					userDomShares[user_id] = np.max(userUtilization[user_id] / resource_caps)
 					print("JOB COUNT IS " + str(job_count))
 					if job_count == 0:
 						break
@@ -195,6 +208,14 @@ def master_func(request_dict):
 					csv_file.write(csv_str+'\n')
 					csv_file.flush()
 					#print("AFTER CSV WROTE")
+					job_id = data['id']
+					user_id = user_job_dict[job_id]
+					print("JOB COUNT IS " + str(job_count))
+					resource_utilizations[0] -= data['cpu']
+					resource_utilizations[1] -= data['ram']
+					userUtilization[user_id][0] -= data['cpu']
+					userUtilization[user_id][1] -= data['ram']
+					userDomShares[user_id] = np.max(userUtilization[user_id] / resource_caps)
 					print("JOB COUNT IS " + str(job_count))
 					if job_count == 0:
 						break
@@ -220,10 +241,6 @@ def master_func(request_dict):
 			resource_offers.append( [k, agent_cpu, agent_ram])
 
 		print(resource_offers)
-		numUsers = 2
-		resource_utilizations = np.zeros(2)
-		userUtilization = np.zeros((len(agent_resources.keys()), 2))
-		userDomShares = np.zeros(len(agent_resources.keys()))
 		resource_caps = [0, 0]
 		for resource in resource_offers:
 			resource_caps[0] += resource[1]
@@ -233,6 +250,9 @@ def master_func(request_dict):
 		if scheduling_alg == 0:
 			[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
 			job_i = 0
+			resource_utilizations = resource_util
+			userUtilization = utils
+			userDomShares = dominant_shares
 		elif scheduling_alg == 1:
 			[success, request] = shortestJobFirst(resource_caps, request_dict)
 			val = list(request_dict.values())
@@ -265,6 +285,7 @@ def master_func(request_dict):
 					print(agent_id_map)
 					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
 					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
+					user_job_dict[request_dict[i][job_i][2]] = i
 					if agent_id_map[k] == 0:
 						s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
 					elif agent_id_map[k] == 1:
@@ -296,7 +317,11 @@ def master_func(request_dict):
 
 def main():
 	request_dict = {0:[]}
-
+	if scheduling_alg == 0:
+		request_dict[1] = []
+		request_dict[2] = []
+		request_dict[3] = []
+		request_dict[4] = []
 	#job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
 	#job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
 	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
@@ -319,7 +344,7 @@ def main():
 	global job_count
 	global total_jobs
 	global job_features 
-	f = open("data_final.json", "r")
+	f = open("data.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
 	for job in data:
@@ -328,10 +353,13 @@ def main():
 		job = json.loads(job)
 		job_features[job["id"]] = job["feature"]
 
-	for job in data:
-		#print(job)
+	for job in data:	
 		job = json.loads(job)
-		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
+		r1 = random.randint(0,4)
+		if scheduling_alg == 0:
+			threading.Thread(target = job_func, args=(request_dict, r1, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
+		else:
+			threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 
 if __name__ == '__main__':
 	main()
