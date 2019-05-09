@@ -36,7 +36,7 @@ throughput_file = open(throughput_file_name, 'w+')
 
 def getUserDemand(userID, request_dict):
 	#print(userID)
-	#print(request_dict)
+	print(request_dict)
 	if not request_dict[userID]:
 		return None
 	return request_dict[userID][0][0:1]
@@ -46,8 +46,12 @@ def dominantResourceFairness(resource_caps, resource_util, dominant_shares, util
 	sorted_dom_shares = np.argsort(dominant_shares)
 	#print(sorted_dom_shares)
 	#check each user to see if we can service their next request
+	print("SORTED DOM SHARES IS ")
+	print(sorted_dom_shares)
 	for i in sorted_dom_shares:
 		userDemand = getUserDemand(i, request_dict)
+		print(i)
+		print(userDemand)
 		if not userDemand:
             #if this user doesn't have any current requests,
             #move to the next guy
@@ -101,7 +105,7 @@ def acquire_resource_offer(list, cpus_to_grab, memory_to_grab):
 def job_func(request_dict, user, cpus, memory, jobID, command, type, predicted):
 	request_dict[user].append([cpus, memory, jobID, command, type, predicted])
 
-HOST = '10.194.80.70'
+HOST = '0.0.0.0'
 PORT = 8000
 
 def master_func(request_dict):
@@ -109,6 +113,9 @@ def master_func(request_dict):
 	s.connect((HOST, PORT))
 	global job_count
 	global total_jobs
+	resource_utilizations = np.zeros(2)
+	userUtilization = np.zeros((5, 2))
+	userDomShares = np.zeros((5))
 	start = time.time()
 	#s.setblocking(0)
 	while(1):
@@ -144,6 +151,8 @@ def master_func(request_dict):
 					csv_file.flush()
 					print("AFTER CSV WROTE")
 					print("JOB COUNT IS " + str(job_count))
+					if job_count == 0:
+						break
 				else:
 					agent_resources[agent_ID] = data
 					print("receive " + str(agent_resources))
@@ -161,9 +170,9 @@ def master_func(request_dict):
 
 		print(resource_offers)
 		numUsers = 2
-		resource_utilizations = np.zeros(2)
-		userUtilization = np.zeros((len(agent_resources.keys()), 2))
-		userDomShares = np.zeros(len(agent_resources.keys()))
+		#resource_utilizations = np.zeros(2)
+		#userUtilization = np.zeros((5, 2))
+		#userDomShares = np.zeros((5))
 		resource_caps = [0, 0]
 		for resource in resource_offers:
 			resource_caps[0] += resource[1]
@@ -172,6 +181,9 @@ def master_func(request_dict):
 		#resource_caps = [29, 85]
 		if scheduling_alg == 0:
 			[success, resource_caps, resource_util, dominant_shares, utils, userDemand, i] = dominantResourceFairness(resource_caps, resource_utilizations, userDomShares, userUtilization, request_dict)
+			resource_utilizations = resource_util
+			userUtilization = utils
+			userDomShares = dominant_shares
 			job_i = 0
 		elif scheduling_alg == 1:
 			[success, request] = shortestJobFirst(resource_caps, request_dict)
@@ -231,7 +243,11 @@ def master_func(request_dict):
 
 def main():
 	request_dict = {0:[]}
-
+	if scheduling_alg == 0:
+		request_dict[1] = []
+		request_dict[2] = []
+		request_dict[3] = []
+		request_dict[4] = []
 	#job1 = threading.Thread(target = job_func, args=(request_dict, 0, 1, 1, 1))
 	#job2 = threading.Thread(target = job_func, args=(request_dict, 0, 2, 2, 2))
 	#job3 = threading.Thread(target = job_func, args=(request_dict, 0, 3, 4, 3))
@@ -264,9 +280,14 @@ def main():
 		job_features[job["id"]] = job["feature"]
 
 	for job in data:
-		print(job)
+		print(job)		
 		job = json.loads(job)
-		threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
+		r1 = random.randint(0,4)
+		if scheduling_alg == 0:
+			threading.Thread(target = job_func, args=(request_dict, r1, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
+		else:
+			print("Why i enter here")
+			threading.Thread(target = job_func, args=(request_dict, 0, job["cpu"], job["ram"], job["id"], job["command"], job["type"], job["predicted"]), daemon=True).start()
 
 if __name__ == '__main__':
 	main()
