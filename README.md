@@ -20,15 +20,20 @@ This would be where we add in our code for scheduling algorithm (DRF, etc..)
 Job (Previously Framework) scheduler -> which resource offers fit the job’s contraints?   
 Not sure on how to model this at this point, master would have to decide, is this even something we should model? Should we just say that if a resource offer exists that matches the resources needed for a job we just allocate?  
 
-## Assumptions when coding:   
-Jobs are threads  
-Resources are modeled using semaphores  
-How long a resource needs to be grabbed should be from the job perspective, not master.  
+#### Instructions
 
-## Other Design  
-Have a master thread and multiple slave (job) threads. Communicate using message passing (like RPC) or with queues.   
-Connect job threads to master thread-> have each job thread’s requests enter a waiting queue.  
-Infinite while loop for master thread. Constantly accepting new job threads.   
-When master thread allocation/scheduling algorithm is done, contact job thread, have job thread access   
+1. Install numpy `pip install numpy`
 
-Need a better way to keep track of which jobs hold which resources in which nodes.
+2. Make sure you have python3 installed
+
+3. Clone this repository
+
+4. `cd single-node`
+
+5. Open mesos.py
+
+6. Set HOST = IP Address of the machine which is running the Agent
+
+   Note: In case you're running the master and agent on the same machine, don't change the value of host. Let it be equal to 0.0.0.0
+
+7. Once the agent is up, run python3 mesos.py 
