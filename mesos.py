@@ -109,7 +109,8 @@ def master_func(request_dict):
 	userUtilization = np.zeros((5, 2))
 	userDomShares = np.zeros((5))
 	start = time.time()
-
+	sent_jobs = 0
+	total_wait_time = 0
 	#Start Mesos Master
 	while(1):
 		#Get list of available resources per node.
@@ -140,6 +141,18 @@ def master_func(request_dict):
 					userUtilization[user_id][0] -= data['cpu']
 					userUtilization[user_id][1] -= data['ram']
 					userDomShares[user_id] = np.max(userUtilization[user_id] / resource_caps)
+					total_run_time = time.time() - start
+					throughput = (total_jobs - job_count)/total_run_time
+					print(throughput)
+					if job_count == 1:
+						total_wait_time += time.time() - start
+						sent_jobs += 1
+						wait_time = total_wait_time / sent_jobs
+						log = "Current average waiting time : " + str(wait_time) + "\n Total wait time:" + str(total_wait_time) + "\n Sent jobs:" + str(sent_jobs)
+						throughput = (total_jobs - 1)/total_run_time
+						th_str = str(throughput)
+						throughput_file.write(th_str + "\n" + log)
+						throughput_file.flush()
 					if job_count == 0:
 						break
 				else:
@@ -192,6 +205,11 @@ def master_func(request_dict):
 					user_job_dict[request_dict[i][job_i][2]] = i
 					agent_resources[k]["cpu"] -= request_dict[i][job_i][0]
 					agent_resources[k]["ram"] -= request_dict[i][job_i][1]
+					total_wait_time += time.time() - start
+					sent_jobs += 1
+					wait_time = total_wait_time / sent_jobs
+					log = "Current average waiting time : " + str(wait_time) + "\n Total wait time:" + str(total_wait_time) + "\n Sent jobs:" + str(sent_jobs)
+					print(log)
 					s.send(pickle.dumps({"id": request_dict[i][job_i][2], "cpu": request_dict[i][job_i][0], "ram": request_dict[i][job_i][1], "command": request_dict[i][job_i][3], "type": request_dict[i][job_i][4]}))
 					#Get rid of job request from request dict
 					request_dict[i] = request_dict[i][0:job_i] + request_dict[i][job_i+1:]
@@ -202,7 +220,7 @@ def master_func(request_dict):
 	total_run_time = time.time() - start
 	throughput = total_jobs/total_run_time
 	th_str = str(throughput)
-	throughput_file.write(th_str)
+	throughput_file.write(th_str+ '\n' + log)
 	throughput_file.flush()	
 
 def main():
@@ -216,7 +234,7 @@ def main():
 	global job_count
 	global total_jobs
 	global job_features 
-	f = open("test_jobs_final.json", "r")
+	f = open("data_final.json", "r")
 	data = f.read()
 	data = data.split("\n")[:-1]
 	#counting number of jobs
